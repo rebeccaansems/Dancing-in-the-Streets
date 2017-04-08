@@ -1,0 +1,1360 @@
+fileFormatVersion: 2
+guid: e78f0f76cd974574eb807f54de06a888
+timeCreated: 1491692286
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dancers - Cheer Up Emo Kid_0
+    21300002: Dancers - Cheer Up Emo Kid_1
+    21300004: Dancers - Cheer Up Emo Kid_2
+    21300006: Dancers - Cheer Up Emo Kid_3
+    21300008: Dancers - Cheer Up Emo Kid_4
+    21300010: Dancers - Cheer Up Emo Kid_5
+    21300012: Dancers - Cheer Up Emo Kid_6
+    21300014: Dancers - Cheer Up Emo Kid_7
+    21300016: Dancers - Cheer Up Emo Kid_8
+    21300018: Dancers - Cheer Up Emo Kid_9
+    21300020: Dancers - Cheer Up Emo Kid_10
+    21300022: Dancers - Cheer Up Emo Kid_11
+    21300024: Dancers - Cheer Up Emo Kid_12
+    21300026: Dancers - Cheer Up Emo Kid_13
+    21300028: Dancers - Cheer Up Emo Kid_14
+    21300030: Dancers - Cheer Up Emo Kid_15
+    21300032: Dancers - Cheer Up Emo Kid_16
+    21300034: Dancers - Cheer Up Emo Kid_17
+    21300036: Dancers - Cheer Up Emo Kid_18
+    21300038: Dancers - Cheer Up Emo Kid_19
+    21300040: Dancers - Cheer Up Emo Kid_20
+    21300042: Dancers - Cheer Up Emo Kid_21
+    21300044: Dancers - Cheer Up Emo Kid_22
+    21300046: Dancers - Cheer Up Emo Kid_23
+    21300048: Dancers - Cheer Up Emo Kid_24
+    21300050: Dancers - Cheer Up Emo Kid_25
+    21300052: Dancers - Cheer Up Emo Kid_26
+    21300054: Dancers - Cheer Up Emo Kid_27
+    21300056: Dancers - Cheer Up Emo Kid_28
+    21300058: Dancers - Cheer Up Emo Kid_29
+    21300060: Dancers - Cheer Up Emo Kid_30
+    21300062: Dancers - Cheer Up Emo Kid_31
+    21300064: Dancers - Cheer Up Emo Kid_32
+    21300066: Dancers - Cheer Up Emo Kid_33
+    21300068: Dancers - Cheer Up Emo Kid_34
+    21300070: Dancers - Cheer Up Emo Kid_35
+    21300072: Dancers - Cheer Up Emo Kid_36
+    21300074: Dancers - Cheer Up Emo Kid_37
+    21300076: Dancers - Cheer Up Emo Kid_38
+    21300078: Dancers - Cheer Up Emo Kid_39
+    21300080: Dancers - Cheer Up Emo Kid_40
+    21300082: Dancers - Cheer Up Emo Kid_41
+    21300084: Dancers - Cheer Up Emo Kid_42
+    21300086: Dancers - Cheer Up Emo Kid_43
+    21300088: Dancers - Cheer Up Emo Kid_44
+    21300090: Dancers - Cheer Up Emo Kid_45
+    21300092: Dancers - Cheer Up Emo Kid_46
+    21300094: Dancers - Cheer Up Emo Kid_47
+    21300096: Dancers - Cheer Up Emo Kid_48
+    21300098: Dancers - Cheer Up Emo Kid_49
+    21300100: Dancers - Cheer Up Emo Kid_50
+    21300102: Dancers - Cheer Up Emo Kid_51
+    21300104: Dancers - Cheer Up Emo Kid_52
+    21300106: Dancers - Cheer Up Emo Kid_53
+    21300108: Dancers - Cheer Up Emo Kid_54
+    21300110: Dancers - Cheer Up Emo Kid_55
+    21300112: Dancers - Cheer Up Emo Kid_56
+    21300114: Dancers - Cheer Up Emo Kid_57
+    21300116: Dancers - Cheer Up Emo Kid_58
+    21300118: Dancers - Cheer Up Emo Kid_59
+    21300120: Dancers - Cheer Up Emo Kid_60
+    21300122: Dancers - Cheer Up Emo Kid_61
+    21300124: Dancers - Cheer Up Emo Kid_62
+    21300126: Dancers - Cheer Up Emo Kid_63
+    21300128: Dancers - Cheer Up Emo Kid_64
+    21300130: Dancers - Cheer Up Emo Kid_65
+    21300132: Dancers - Cheer Up Emo Kid_66
+    21300134: Dancers - Cheer Up Emo Kid_67
+    21300136: Dancers - Cheer Up Emo Kid_68
+    21300138: Dancers - Cheer Up Emo Kid_69
+    21300140: Dancers - Cheer Up Emo Kid_70
+    21300142: Dancers - Cheer Up Emo Kid_71
+    21300144: Dancers - Cheer Up Emo Kid_72
+    21300146: Dancers - Cheer Up Emo Kid_73
+    21300148: Dancers - Cheer Up Emo Kid_74
+    21300150: Dancers - Cheer Up Emo Kid_75
+    21300152: Dancers - Cheer Up Emo Kid_76
+    21300154: Dancers - Cheer Up Emo Kid_77
+    21300156: Dancers - Cheer Up Emo Kid_78
+    21300158: Dancers - Cheer Up Emo Kid_79
+    21300160: Dancers - Cheer Up Emo Kid_80
+    21300162: Dancers - Cheer Up Emo Kid_81
+    21300164: Dancers - Cheer Up Emo Kid_82
+    21300166: Dancers - Cheer Up Emo Kid_83
+    21300168: Dancers - Cheer Up Emo Kid_84
+    21300170: Dancers - Cheer Up Emo Kid_85
+    21300172: Dancers - Cheer Up Emo Kid_86
+    21300174: Dancers - Cheer Up Emo Kid_87
+    21300176: Dancers - Cheer Up Emo Kid_88
+    21300178: Dancers - Cheer Up Emo Kid_89
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6029
+        width: 619
+        height: 620
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_1
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 6029
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_2
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 6038
+        width: 627
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_3
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 6038
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_4
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 6038
+        width: 627
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_5
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 6038
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_6
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 6038
+        width: 627
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_7
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 6038
+        width: 621
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_8
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 6038
+        width: 627
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_9
+      rect:
+        serializedVersion: 2
+        x: 5965
+        y: 6038
+        width: 616
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5366
+        width: 619
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_11
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 5366
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_12
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 5376
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_13
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 5376
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_14
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 5376
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_15
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 5376
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_16
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 5376
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_17
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 5376
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_18
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 5376
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_19
+      rect:
+        serializedVersion: 2
+        x: 5965
+        y: 5376
+        width: 616
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4703
+        width: 619
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_21
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 4703
+        width: 621
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_22
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 4713
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_23
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 4713
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_24
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 4713
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_25
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 4713
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_26
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 4713
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_27
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 4713
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_28
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 4713
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_29
+      rect:
+        serializedVersion: 2
+        x: 5965
+        y: 4713
+        width: 616
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4031
+        width: 619
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_31
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 4031
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_32
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 4041
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_33
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 4041
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_34
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 4041
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_35
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 4041
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_36
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 4041
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_37
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 4041
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_38
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 4041
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_39
+      rect:
+        serializedVersion: 2
+        x: 5965
+        y: 4041
+        width: 616
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3358
+        width: 619
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_41
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 3358
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_42
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 3371
+        width: 627
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_43
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 3371
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_44
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 3371
+        width: 627
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_45
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 3371
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_46
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 3371
+        width: 627
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_47
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 3371
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_48
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 3371
+        width: 627
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_49
+      rect:
+        serializedVersion: 2
+        x: 5965
+        y: 3371
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2666
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_51
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2666
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_52
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2666
+        width: 623
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_53
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 2666
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_54
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2666
+        width: 623
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_55
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 2666
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_56
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 2666
+        width: 623
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_57
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 2666
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_58
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2003
+        width: 627
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_59
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2003
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_60
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2003
+        width: 623
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_61
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 2003
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_62
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2003
+        width: 623
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_63
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 2003
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_64
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 2003
+        width: 623
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_65
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 2003
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1340
+        width: 627
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_67
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1340
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_68
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1340
+        width: 623
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_69
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1340
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_70
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1340
+        width: 623
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_71
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1340
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_72
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 1340
+        width: 623
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_73
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 1340
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_74
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 668
+        width: 627
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_75
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 668
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_76
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 668
+        width: 623
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_77
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 668
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_78
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 668
+        width: 623
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_79
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 668
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_80
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 668
+        width: 623
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_81
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 668
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_82
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 627
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_83
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_84
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 623
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_85
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_86
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 0
+        width: 623
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_87
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_88
+      rect:
+        serializedVersion: 2
+        x: 3994
+        y: 0
+        width: 623
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Cheer Up Emo Kid_89
+      rect:
+        serializedVersion: 2
+        x: 4673
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
