@@ -6,11 +6,11 @@ public class PlayerMovement : MonoBehaviour
 {
     public List<DancerMovement> dancerMovements;
     public List<GameObject> dancerGameObjects;
-    public int rotSpeed, moveSpeed;
     public Sprite walkingMan, dancingMan;
+    public int rotSpeed, moveSpeed;
+    public bool isFacing;
 
     private int currentDancerIndex;
-    private bool isFacing;
 
     // Use this for initialization
     void Start()
@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
             if (!isFacing)
             {
                 int difAngles = (int)(this.transform.rotation.eulerAngles.z - dancerGameObjects[currentDancerIndex - 1].transform.rotation.eulerAngles.z);
-                if ((difAngles >= 85 && difAngles <= 95) || (difAngles >= -275 && difAngles <= -265))
+                if ((difAngles >= 80 && difAngles <= 100) || (difAngles >= -280 && difAngles <= -260))
                 {
                     isFacing = true;
                     dancerMovements[currentDancerIndex-1].isFacing = true;

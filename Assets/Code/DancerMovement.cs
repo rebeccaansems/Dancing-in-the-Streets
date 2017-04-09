@@ -38,7 +38,9 @@ public class DancerMovement : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (playerMovement.dancerGameObjects.Count != 0 && playerMovement.dancerGameObjects[playerMovement.dancerGameObjects.Count - 1] != this.gameObject)
+        if (playerMovement.dancerGameObjects.Count != 0 && 
+            playerMovement.dancerGameObjects[playerMovement.dancerGameObjects.Count - 1] != this.gameObject &&
+            playerMovement.isFacing)
         {
             playerMovement.dancerMovements.Add(this);
             playerMovement.dancerGameObjects.Add(this.gameObject);
