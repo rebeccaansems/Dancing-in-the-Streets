@@ -18,6 +18,9 @@ public class DancerMovement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        danceDatabase = GameObject.Find("Dancer Spawner").GetComponent<DancerDatabase>();
+        player = GameObject.Find("Player");
+        playerMovement = player.GetComponent<PlayerMovement>();
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
         spinSpeed = Random.Range(75, 300);
         spinClockwise = Random.Range(0, 2) == 0;
