@@ -6,11 +6,14 @@ public class DancerMovement : MonoBehaviour
 {
     public GameObject player;
     public PlayerMovement playerMovement;
+    public DancerDatabase danceDatabase;
     public Sprite armsIn, armsOut;
     public bool isFacing;
 
     public int spinSpeed;
     public bool spinClockwise;
+
+    private int spriteIndex;
 
     // Use this for initialization
     void Start()
@@ -18,7 +21,8 @@ public class DancerMovement : MonoBehaviour
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
         spinSpeed = Random.Range(75, 300);
         spinClockwise = Random.Range(0, 2) == 0;
-        GetComponent<SpriteRenderer>().sprite = armsIn;
+        spriteIndex = Random.Range(0, danceDatabase.armsIn.Count);
+        GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
     }
 
     // Update is called once per frame
@@ -28,11 +32,11 @@ public class DancerMovement : MonoBehaviour
 
         if (isFacing)
         {
-            GetComponent<SpriteRenderer>().sprite = armsOut;
+            GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
         }
         else
         {
-            GetComponent<SpriteRenderer>().sprite = armsIn;
+            GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
         }
     }
 
