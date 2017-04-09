@@ -8,12 +8,12 @@ public class DancerMovement : MonoBehaviour
     public PlayerMovement playerMovement;
     public DancerDatabase danceDatabase;
     public Sprite armsIn, armsOut;
-    public bool isFacing;
 
     public int spinSpeed;
     public bool spinClockwise;
 
     private int spriteIndex;
+    private bool isVisible;
 
     // Use this for initialization
     void Start()
@@ -21,6 +21,7 @@ public class DancerMovement : MonoBehaviour
         danceDatabase = GameObject.Find("Dancer Spawner").GetComponent<DancerDatabase>();
         player = GameObject.Find("Player");
         playerMovement = player.GetComponent<PlayerMovement>();
+
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
         spinSpeed = Random.Range(75, 300);
         spinClockwise = Random.Range(0, 2) == 0;
@@ -31,32 +32,42 @@ public class DancerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(spinClockwise ? Vector3.back : Vector3.forward, spinSpeed * Time.deltaTime);
+        if (isVisible)
+        {
+            transform.Rotate(spinClockwise ? Vector3.back : Vector3.forward, spinSpeed * Time.deltaTime);
 
-        if (isFacing)
-        {
-            GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
-        }
-        else
-        {
-            GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
+            if (Vector3.Distance(transform.position, player.transform.position) <= 1.05)
+            {
+                GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
+            }
         }
     }
 
     private void OnMouseDown()
     {
-        if (playerMovement.dancerGameObjects.Count != 0 && 
-            playerMovement.dancerGameObjects[playerMovement.dancerGameObjects.Count - 1] != this.gameObject &&
+        if (playerMovement.dancerGameObjectQueue.Count != 0 &&
+            playerMovement.dancerGameObjectQueue.Peek() != this.gameObject &&
             playerMovement.isFacing)
         {
-            playerMovement.dancerMovements.Add(this);
-            playerMovement.dancerGameObjects.Add(this.gameObject);
+            playerMovement.dancerGameObjectQueue.Enqueue(this.gameObject);
         }
-        else if (playerMovement.dancerGameObjects.Count == 0)
+        else if (playerMovement.dancerGameObjectQueue.Count == 0)
         {
-            playerMovement.dancerMovements.Add(this);
-            playerMovement.dancerGameObjects.Add(this.gameObject);
+            playerMovement.dancerGameObjectQueue.Enqueue(this.gameObject);
         }
     }
+    
+    private void OnBecameVisible()
+    {
+        isVisible = true;
+    }
 
+    private void OnBecameInvisible()
+    {
+        isVisible = false;
+    }
 }
