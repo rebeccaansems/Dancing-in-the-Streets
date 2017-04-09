@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
                 if ((difAngles >= 85 && difAngles <= 95) || (difAngles >= -275 && difAngles <= -265))
                 {
                     isFacing = true;
-                    dancerMovements[currentDancerIndex - 1].isFacing = isFacing;
+                    dancerMovements[currentDancerIndex-1].isFacing = true;
                 }
             }
             else

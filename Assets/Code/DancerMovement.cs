@@ -38,8 +38,16 @@ public class DancerMovement : MonoBehaviour
 
     private void OnMouseDown()
     {
-        playerMovement.dancerMovements.Add(this);
-        playerMovement.dancerGameObjects.Add(this.gameObject);
+        if (playerMovement.dancerGameObjects.Count != 0 && playerMovement.dancerGameObjects[playerMovement.dancerGameObjects.Count - 1] != this.gameObject)
+        {
+            playerMovement.dancerMovements.Add(this);
+            playerMovement.dancerGameObjects.Add(this.gameObject);
+        }
+        else if (playerMovement.dancerGameObjects.Count == 0)
+        {
+            playerMovement.dancerMovements.Add(this);
+            playerMovement.dancerGameObjects.Add(this.gameObject);
+        }
     }
 
 }
