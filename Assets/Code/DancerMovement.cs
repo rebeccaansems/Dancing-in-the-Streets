@@ -4,28 +4,42 @@ using UnityEngine;
 
 public class DancerMovement : MonoBehaviour
 {
+    public GameObject player;
     public PlayerMovement playerMovement;
+    public Sprite armsIn, armsOut;
+    public bool isFacing;
 
-    private int speed;
-    private bool spinClockwise;
+    public int spinSpeed;
+    public bool spinClockwise;
 
     // Use this for initialization
     void Start()
     {
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
-        speed = Random.Range(75, 300);
+        spinSpeed = Random.Range(75, 300);
         spinClockwise = Random.Range(0, 2) == 0;
+        GetComponent<SpriteRenderer>().sprite = armsIn;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(spinClockwise ? Vector3.back : Vector3.forward, speed * Time.deltaTime);
+        transform.Rotate(spinClockwise ? Vector3.back : Vector3.forward, spinSpeed * Time.deltaTime);
+
+        if (isFacing)
+        {
+            GetComponent<SpriteRenderer>().sprite = armsOut;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().sprite = armsIn;
+        }
     }
 
     private void OnMouseDown()
     {
-        playerMovement.playerPositions.Add(this.transform.position);
+        playerMovement.dancerMovements.Add(this);
+        playerMovement.dancerGameObjects.Add(this.gameObject);
     }
 
 }
