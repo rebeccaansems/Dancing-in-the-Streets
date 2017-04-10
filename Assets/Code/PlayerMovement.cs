@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!isFacing)
             {
-                int difAngles = (int)(this.transform.rotation.eulerAngles.z - currentDancer.transform.rotation.eulerAngles.z);
+                int difAngles = (int)(this.transform.rotation.eulerAngles.z - currentDancer.transform.rotation.eulerAngles.z) + 90;
                 if ((difAngles >= 77 && difAngles <= 103) || (difAngles >= -283 && difAngles <= -257))
                 {
                     isFacing = true;

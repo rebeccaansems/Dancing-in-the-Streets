@@ -26,7 +26,7 @@ public class DancerMovement : MonoBehaviour
         spinSpeed = Random.Range(75, 300);
         spinClockwise = Random.Range(0, 2) == 0;
         spriteIndex = Random.Range(0, danceDatabase.armsIn.Count);
-        GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
+        GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
     }
 
     // Update is called once per frame
