@@ -17,7 +17,7 @@ public class DancerMovement : MonoBehaviour
 
     // Use this for initialization
     void Start()
-    {
+    { 
         danceDatabase = GameObject.Find("Dancer Spawner").GetComponent<DancerDatabase>();
         player = GameObject.Find("Player");
         playerMovement = player.GetComponent<PlayerMovement>();
@@ -44,6 +44,11 @@ public class DancerMovement : MonoBehaviour
             {
                 GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
             }
+        }
+
+        if(player.transform.position.y > this.transform.position.y + 20)
+        {
+            Destroy(this.gameObject);
         }
     }
 

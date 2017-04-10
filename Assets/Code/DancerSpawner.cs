@@ -4,24 +4,40 @@ using UnityEngine;
 
 public class DancerSpawner : MonoBehaviour
 {
-    public GameObject Dancer;
+    public List<GameObject> dancerGroups;
+    public GameObject player;
+
+    private int lastYValue, playerSpawnIndex;
+    private List<int> playerSpawnPositions;
+    private GameObject newDancerGroup;
 
     // Use this for initialization
     void Awake()
     {
-        GameObject newDancer;
-        float lastYValue = -1;
-        for(int i=0; i<50; i++)
-        {
-            newDancer = Instantiate(Dancer);
-            lastYValue += Random.Range(2f, 3.5f);
-            newDancer.transform.position = new Vector3(Random.Range(-1.65f, 1.3f), lastYValue, 0);
-        }
+        playerSpawnPositions = new List<int>() { 40, 80, 120, 160, 200 };
+        lastYValue = 0;
+        SpawnBlock(8);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if ((int)player.transform.position.y % playerSpawnPositions[playerSpawnIndex] == 0
+            && (int)player.transform.position.y != 0)
+        {
+            playerSpawnIndex++;
+            SpawnBlock(5);
+        }
+    }
 
+    void SpawnBlock(int loop)
+    {
+        for (int i = 0; i < loop; i++)
+        {
+            newDancerGroup = Instantiate(dancerGroups[Random.Range(0, dancerGroups.Count)]);
+            newDancerGroup.transform.position = new Vector3(0, lastYValue, 0);
+            lastYValue += 8;
+
+        }
     }
 }
