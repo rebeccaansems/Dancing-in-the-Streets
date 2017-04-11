@@ -38,7 +38,11 @@ public class DancerMovement : MonoBehaviour
 
             if (Vector3.Distance(transform.position, player.transform.position) <= 1.05)
             {
-                GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
+                int difAngles = (int)(this.transform.rotation.eulerAngles.z - player.transform.rotation.eulerAngles.z) + 90;
+                if ((difAngles >= 77 && difAngles <= 103) || (difAngles >= -283 && difAngles <= -257))
+                {
+                    GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
+                }
             }
             else
             {
