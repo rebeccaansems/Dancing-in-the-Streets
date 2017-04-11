@@ -10,13 +10,10 @@ public class BackgroundSpawner : MonoBehaviour
 
     private GameObject newFloor, newWall;
     private float currentY = -4;
-    private int playerSpawnIndex;
-    private List<int> playerSpawnPositions;
+    private int playerSpawnPosition = 40;
 
     void Start()
     {
-        playerSpawnPositions = new List<int>() { 40, 80, 120, 160, 200, 240, 280, 320 };
-
         if (isWallSpawner)
         {
             SpawnWallBlock(6);
@@ -29,10 +26,10 @@ public class BackgroundSpawner : MonoBehaviour
 
     void Update()
     {
-        if ((int)player.transform.position.y % playerSpawnPositions[playerSpawnIndex] == 0
+        if ((int)player.transform.position.y % playerSpawnPosition == 0
             && (int)player.transform.position.y != 0)
         {
-            playerSpawnIndex++;
+            playerSpawnPosition += 40;
             if (isWallSpawner)
             {
                 SpawnWallBlock(4);

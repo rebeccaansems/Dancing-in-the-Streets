@@ -58,15 +58,15 @@ public class DancerMovement : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (playerMovement.dancerGameObjectQueue.Count != 0 &&
-            playerMovement.dancerGameObjectQueue.Peek() != this.gameObject &&
+        if (playerMovement.previousDancerGameObjectStack.Count != 0 &&
+            playerMovement.previousDancerGameObjectStack.Peek() != this.gameObject &&
             playerMovement.isFacing)
         {
-            playerMovement.dancerGameObjectQueue.Enqueue(this.gameObject);
+            playerMovement.dancerGameObjectStack.Push(this.gameObject);
         }
-        else if (playerMovement.dancerGameObjectQueue.Count == 0)
+        else if (playerMovement.previousDancerGameObjectStack.Count == 0)
         {
-            playerMovement.dancerGameObjectQueue.Enqueue(this.gameObject);
+            playerMovement.dancerGameObjectStack.Push(this.gameObject);
         }
     }
     

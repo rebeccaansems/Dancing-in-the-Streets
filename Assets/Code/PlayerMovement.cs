@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public Queue<GameObject> dancerGameObjectQueue;
+    public Stack<GameObject> dancerGameObjectStack, previousDancerGameObjectStack;
     public Sprite walkingMan, dancingMan;
     public int rotSpeed, moveSpeed;
     public bool isFacing;
@@ -14,29 +14,31 @@ public class PlayerMovement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        dancerGameObjectQueue = new Queue<GameObject>();
+        dancerGameObjectStack = new Stack<GameObject>();
+        previousDancerGameObjectStack = new Stack<GameObject>();
         GetComponent<SpriteRenderer>().sprite = walkingMan;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (dancerGameObjectQueue.Count != 0)
+        if (dancerGameObjectStack.Count != 0)
         {
             currentDancer = null;
-            Vector3 rotDiff = dancerGameObjectQueue.Peek().transform.position - transform.position;
+            Vector3 rotDiff = dancerGameObjectStack.Peek().transform.position - transform.position;
             rotDiff.Normalize();
             float rot_z = Mathf.Atan2(rotDiff.y, rotDiff.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
             float moveStep = moveSpeed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, dancerGameObjectQueue.Peek().transform.position, moveStep);
+            transform.position = Vector3.MoveTowards(transform.position, dancerGameObjectStack.Peek().transform.position, moveStep);
             GetComponent<SpriteRenderer>().sprite = walkingMan;
             isFacing = false;
 
-            if (Vector3.Distance(transform.position, dancerGameObjectQueue.Peek().transform.position) <= 1.05)
+            if (Vector3.Distance(transform.position, dancerGameObjectStack.Peek().transform.position) <= 1.05)
             {
-                currentDancer = dancerGameObjectQueue.Dequeue();
+                previousDancerGameObjectStack.Push(dancerGameObjectStack.Peek());
+                currentDancer = dancerGameObjectStack.Pop();
             }
         }
 

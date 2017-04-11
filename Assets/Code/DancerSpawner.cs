@@ -7,14 +7,12 @@ public class DancerSpawner : MonoBehaviour
     public List<GameObject> dancerGroups;
     public GameObject player;
 
-    private int lastYValue, playerSpawnIndex;
-    private List<int> playerSpawnPositions;
+    private int lastYValue, playerSpawnLocation = 40;
     private GameObject newDancerGroup;
 
     // Use this for initialization
     void Awake()
     {
-        playerSpawnPositions = new List<int>() { 40, 80, 120, 160, 200 };
         lastYValue = 0;
         SpawnBlock(8);
     }
@@ -22,10 +20,10 @@ public class DancerSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((int)player.transform.position.y % playerSpawnPositions[playerSpawnIndex] == 0
+        if ((int)player.transform.position.y % playerSpawnLocation == 0
             && (int)player.transform.position.y != 0)
         {
-            playerSpawnIndex++;
+            playerSpawnLocation += 40;
             SpawnBlock(5);
         }
     }
