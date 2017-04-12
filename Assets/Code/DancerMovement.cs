@@ -9,7 +9,7 @@ public class DancerMovement : MonoBehaviour
     public DancerDatabase danceDatabase;
     public Sprite armsIn, armsOut;
 
-    public int spinSpeed;
+    public int spinSpeed, minSpinSpeed, maxSpinSpeed;
     public bool spinClockwise;
 
     private int spriteIndex;
@@ -23,7 +23,7 @@ public class DancerMovement : MonoBehaviour
         playerMovement = player.GetComponent<PlayerMovement>();
 
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
-        spinSpeed = Random.Range(75, 300);
+        spinSpeed = Random.Range(100, 400);
         spinClockwise = Random.Range(0, 2) == 0;
         spriteIndex = Random.Range(0, danceDatabase.armsIn.Count);
         GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
@@ -60,7 +60,7 @@ public class DancerMovement : MonoBehaviour
     {
         if (playerMovement.previousDancerGameObjectStack.Count != 0 &&
             playerMovement.previousDancerGameObjectStack.Peek() != this.gameObject &&
-            playerMovement.isFacing)
+            playerMovement.isConnected)
         {
             playerMovement.dancerGameObjectStack.Push(this.gameObject);
         }

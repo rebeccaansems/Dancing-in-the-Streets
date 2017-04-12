@@ -7,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public Stack<GameObject> dancerGameObjectStack, previousDancerGameObjectStack;
     public Sprite walkingMan, dancingMan;
     public int rotSpeed, moveSpeed;
-    public bool isFacing;
-    
+    public bool isConnected, isCircling;
+
     private GameObject currentDancer;
 
     // Use this for initialization
@@ -33,28 +33,36 @@ public class PlayerMovement : MonoBehaviour
             float moveStep = moveSpeed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, dancerGameObjectStack.Peek().transform.position, moveStep);
             GetComponent<SpriteRenderer>().sprite = walkingMan;
-            isFacing = false;
+            isConnected = false;
 
             if (Vector3.Distance(transform.position, dancerGameObjectStack.Peek().transform.position) <= 1.05)
             {
                 previousDancerGameObjectStack.Push(dancerGameObjectStack.Peek());
                 currentDancer = dancerGameObjectStack.Pop();
             }
+            else
+            {
+                isCircling = false;
+            }
         }
 
         if (currentDancer != null)
         {
-            if (!isFacing)
+            if (!isConnected)
             {
                 int difAngles = (int)(this.transform.rotation.eulerAngles.z - currentDancer.transform.rotation.eulerAngles.z) + 90;
                 if ((difAngles >= 77 && difAngles <= 103) || (difAngles >= -283 && difAngles <= -257))
                 {
-                    isFacing = true;
+                    isConnected = true;
                 }
+                else
+                {
+                    isCircling = true;
 
-                transform.RotateAround(currentDancer.transform.position,
-                    currentDancer.GetComponent<DancerMovement>().spinClockwise ? Vector3.forward : Vector3.back,
-                    (currentDancer.GetComponent<DancerMovement>().spinSpeed * Time.deltaTime)/4f);
+                    transform.RotateAround(currentDancer.transform.position,
+                        currentDancer.GetComponent<DancerMovement>().spinClockwise ? Vector3.forward : Vector3.back,
+                        (currentDancer.GetComponent<DancerMovement>().spinSpeed * Time.deltaTime) / 4f);
+                }
             }
             else
             {

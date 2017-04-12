@@ -9,15 +9,13 @@ public class DancerSpawner : MonoBehaviour
 
     private int lastYValue, playerSpawnLocation = 40;
     private GameObject newDancerGroup;
-
-    // Use this for initialization
+    
     void Awake()
     {
         lastYValue = 0;
         SpawnBlock(8);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if ((int)player.transform.position.y % playerSpawnLocation == 0
