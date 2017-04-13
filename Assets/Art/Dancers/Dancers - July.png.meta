@@ -1,0 +1,1220 @@
+fileFormatVersion: 2
+guid: 01835de0c3b678e4aaece69cf84206da
+timeCreated: 1492048503
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dancers - July_0
+    21300002: Dancers - July_1
+    21300004: Dancers - July_2
+    21300006: Dancers - July_3
+    21300008: Dancers - July_4
+    21300010: Dancers - July_5
+    21300012: Dancers - July_6
+    21300014: Dancers - July_7
+    21300016: Dancers - July_8
+    21300018: Dancers - July_9
+    21300020: Dancers - July_10
+    21300022: Dancers - July_11
+    21300024: Dancers - July_12
+    21300026: Dancers - July_13
+    21300028: Dancers - July_14
+    21300030: Dancers - July_15
+    21300032: Dancers - July_16
+    21300034: Dancers - July_17
+    21300036: Dancers - July_18
+    21300038: Dancers - July_19
+    21300040: Dancers - July_20
+    21300042: Dancers - July_21
+    21300044: Dancers - July_22
+    21300046: Dancers - July_23
+    21300048: Dancers - July_24
+    21300050: Dancers - July_25
+    21300052: Dancers - July_26
+    21300054: Dancers - July_27
+    21300056: Dancers - July_28
+    21300058: Dancers - July_29
+    21300060: Dancers - July_30
+    21300062: Dancers - July_31
+    21300064: Dancers - July_32
+    21300066: Dancers - July_33
+    21300068: Dancers - July_34
+    21300070: Dancers - July_35
+    21300072: Dancers - July_36
+    21300074: Dancers - July_37
+    21300076: Dancers - July_38
+    21300078: Dancers - July_39
+    21300080: Dancers - July_40
+    21300082: Dancers - July_41
+    21300084: Dancers - July_42
+    21300086: Dancers - July_43
+    21300088: Dancers - July_44
+    21300090: Dancers - July_45
+    21300092: Dancers - July_46
+    21300094: Dancers - July_47
+    21300096: Dancers - July_48
+    21300098: Dancers - July_49
+    21300100: Dancers - July_50
+    21300102: Dancers - July_51
+    21300104: Dancers - July_52
+    21300106: Dancers - July_53
+    21300108: Dancers - July_54
+    21300110: Dancers - July_55
+    21300112: Dancers - July_56
+    21300114: Dancers - July_57
+    21300116: Dancers - July_58
+    21300118: Dancers - July_59
+    21300120: Dancers - July_60
+    21300122: Dancers - July_61
+    21300124: Dancers - July_62
+    21300126: Dancers - July_63
+    21300128: Dancers - July_64
+    21300130: Dancers - July_65
+    21300132: Dancers - July_66
+    21300134: Dancers - July_67
+    21300136: Dancers - July_68
+    21300138: Dancers - July_69
+    21300140: Dancers - July_70
+    21300142: Dancers - July_71
+    21300144: Dancers - July_72
+    21300146: Dancers - July_73
+    21300148: Dancers - July_74
+    21300150: Dancers - July_75
+    21300152: Dancers - July_76
+    21300154: Dancers - July_77
+    21300156: Dancers - July_78
+    21300158: Dancers - July_79
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dancers - July_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5006
+        width: 616
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_1
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 5006
+        width: 620
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_2
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 5006
+        width: 621
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_3
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 5006
+        width: 621
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_4
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 5006
+        width: 619
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_5
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 5029
+        width: 618
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_6
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 5029
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_7
+      rect:
+        serializedVersion: 2
+        x: 4714
+        y: 5029
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_8
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5029
+        width: 621
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_9
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 5029
+        width: 616
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4278
+        width: 616
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_11
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 4278
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_12
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 4278
+        width: 621
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_13
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 4278
+        width: 621
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_14
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 4278
+        width: 619
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_15
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 4298
+        width: 618
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_16
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 4298
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_17
+      rect:
+        serializedVersion: 2
+        x: 4714
+        y: 4298
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_18
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4298
+        width: 621
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_19
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 4298
+        width: 616
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3550
+        width: 616
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_21
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 3550
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_22
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 3550
+        width: 621
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_23
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3550
+        width: 621
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_24
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 3550
+        width: 619
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_25
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 3570
+        width: 618
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_26
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 3570
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_27
+      rect:
+        serializedVersion: 2
+        x: 4714
+        y: 3570
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_28
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3570
+        width: 621
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_29
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 3570
+        width: 616
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2839
+        width: 616
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_31
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2839
+        width: 620
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_32
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2839
+        width: 621
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_33
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 2839
+        width: 621
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_34
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 2839
+        width: 621
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_35
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 2839
+        width: 620
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_36
+      rect:
+        serializedVersion: 2
+        x: 4038
+        y: 2839
+        width: 620
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_37
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 2839
+        width: 618
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_38
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 2839
+        width: 620
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_39
+      rect:
+        serializedVersion: 2
+        x: 6033
+        y: 2839
+        width: 620
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2033
+        width: 616
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_41
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2033
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_42
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2033
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_43
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 2033
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_44
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 2033
+        width: 619
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_45
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 2052
+        width: 618
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_46
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 2052
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_47
+      rect:
+        serializedVersion: 2
+        x: 4714
+        y: 2052
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_48
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2052
+        width: 621
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_49
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 2052
+        width: 616
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 616
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_51
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1344
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_52
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1344
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_53
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1344
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_54
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 1344
+        width: 619
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_55
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 1367
+        width: 618
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_56
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 1367
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_57
+      rect:
+        serializedVersion: 2
+        x: 4714
+        y: 1367
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_58
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1367
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_59
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 1367
+        width: 616
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 616
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_61
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 678
+        width: 620
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_62
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 678
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_63
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 678
+        width: 621
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_64
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 678
+        width: 619
+        height: 620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_65
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 700
+        width: 618
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_66
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 700
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_67
+      rect:
+        serializedVersion: 2
+        x: 4714
+        y: 700
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_68
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 700
+        width: 621
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_69
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 700
+        width: 616
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 619
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_71
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 11
+        width: 621
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_72
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 11
+        width: 620
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_73
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 11
+        width: 619
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_74
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 11
+        width: 621
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_75
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 0
+        width: 621
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_76
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_77
+      rect:
+        serializedVersion: 2
+        x: 4713
+        y: 0
+        width: 618
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_78
+      rect:
+        serializedVersion: 2
+        x: 5373
+        y: 0
+        width: 621
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - July_79
+      rect:
+        serializedVersion: 2
+        x: 6036
+        y: 0
+        width: 619
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
