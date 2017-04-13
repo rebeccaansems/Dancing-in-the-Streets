@@ -1,32 +1,54 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerScoring : MonoBehaviour
 {
+    public Text scoreText;
 
     private PlayerMovement playMove;
+    private int score, pointsPerScore = 1;
+    private bool didScore = false, didMultiply = false;
 
-    // Use this for initialization
     void Start()
     {
-
+        playMove = GetComponent<PlayerMovement>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(!playMove.isCircling && playMove.isConnected)
+        scoreText.text = score.ToString()+" - Multiplier: "+pointsPerScore;
+
+        if (!didScore)
         {
-            //Extra points
+            if (!playMove.isCircling && playMove.isConnected)
+            {
+                pointsPerScore++;
+                score += pointsPerScore;
+                didScore = true;
+            }
+            else if (playMove.isConnected)
+            {
+                score += pointsPerScore;
+                didScore = true;
+            }
+            else if (playMove.isCircling && !didMultiply)
+            {
+                didMultiply = true;
+                if (pointsPerScore > 1)
+                {
+                    pointsPerScore--;
+                }
+            }
         }
-        else if (playMove.isCircling)
+        else
         {
-            //Lose points
-        }
-        else if (playMove.isConnected)
-        {
-            //points once
+            if (!playMove.isCircling && !playMove.isConnected)
+            {
+                didMultiply = false;
+                didScore = false;
+            }
         }
     }
 }
