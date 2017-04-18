@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-
     public GameObject player;
+    public float cameraSpeed, cameraSpeedMultiplier;
 
     // Use this for initialization
     void Start()
@@ -18,7 +18,7 @@ public class CameraFollow : MonoBehaviour
     {
         if (player.transform.position.y > -2)
         {
-            this.transform.position = new Vector3(this.transform.position.x, player.transform.position.y + 2, -10);
+            this.transform.position = Vector3.Lerp(this.transform.position, new Vector3(this.transform.position.x, this.transform.position.y + cameraSpeed + (Time.deltaTime * cameraSpeedMultiplier), -10), 0.05f);
         }
     }
 }

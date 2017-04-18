@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerScoring : MonoBehaviour
 {
-    public Text scoreText;
+    public Text scoreText, multiplierText;
 
     private PlayerMovement playMove;
     private int score, pointsPerScore = 1;
@@ -18,7 +18,8 @@ public class PlayerScoring : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = score.ToString()+" - Multiplier: "+pointsPerScore;
+        scoreText.text = score.ToString();
+        multiplierText.text = "x"+pointsPerScore;
 
         if (!didScore)
         {

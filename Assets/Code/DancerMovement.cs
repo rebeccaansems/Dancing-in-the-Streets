@@ -23,7 +23,7 @@ public class DancerMovement : MonoBehaviour
         playerMovement = player.GetComponent<PlayerMovement>();
 
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
-        spinSpeed = Random.Range(100, 400);
+        spinSpeed = Random.Range(150, 400);
         spinClockwise = Random.Range(0, 2) == 0;
         spriteIndex = Random.Range(0, danceDatabase.armsIn.Count);
         GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
