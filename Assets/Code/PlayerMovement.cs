@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -72,5 +73,15 @@ public class PlayerMovement : MonoBehaviour
                     currentDancer.GetComponent<DancerMovement>().spinSpeed * Time.deltaTime);
             }
         }
+    }
+
+    void OnDeath()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    void OnBecameInvisible()
+    {
+        OnDeath();
     }
 }
