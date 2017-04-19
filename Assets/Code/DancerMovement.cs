@@ -14,8 +14,7 @@ public class DancerMovement : MonoBehaviour
 
     private int spriteIndex;
     private bool isVisible;
-
-    // Use this for initialization
+    
     void Start()
     { 
         danceDatabase = GameObject.Find("Dancer Spawner").GetComponent<DancerDatabase>();
@@ -29,7 +28,6 @@ public class DancerMovement : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isVisible)

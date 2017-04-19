@@ -52,4 +52,10 @@ public class PlayerScoring : MonoBehaviour
             }
         }
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        score -= 10;
+        pointsPerScore = 1;
+    }
 }

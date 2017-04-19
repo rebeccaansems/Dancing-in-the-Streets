@@ -33,7 +33,6 @@ public class DancerSpawner : MonoBehaviour
             newDancerGroup = Instantiate(dancerGroups[Random.Range(0, dancerGroups.Count)]);
             newDancerGroup.transform.position = new Vector3(0, lastYValue, 0);
             lastYValue += 8;
-
         }
     }
 }
