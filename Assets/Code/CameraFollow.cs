@@ -18,7 +18,8 @@ public class CameraFollow : MonoBehaviour
     {
         if (player.transform.position.y > -2)
         {
-            this.transform.position = Vector3.Lerp(this.transform.position, new Vector3(this.transform.position.x, this.transform.position.y + cameraSpeed + (Time.deltaTime * cameraSpeedMultiplier), -10), 0.05f);
+            this.transform.position = Vector3.Lerp(this.transform.position, new Vector3(this.transform.position.x,
+                this.transform.position.y + cameraSpeed + (Time.time * cameraSpeedMultiplier), -10), 0.05f);
         }
     }
 }
