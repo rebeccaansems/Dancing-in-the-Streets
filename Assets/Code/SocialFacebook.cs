@@ -62,22 +62,4 @@ public class SocialFacebook : MonoBehaviour
             Time.timeScale = 1;
         }
     }
-
-    private void ShareCallback(IShareResult result)
-    {
-        if (result.Cancelled || !String.IsNullOrEmpty(result.Error))
-        {
-            Debug.Log("ShareLink Error: " + result.Error);
-        }
-        else if (!String.IsNullOrEmpty(result.PostId))
-        {
-            // Print post identifier of the shared content
-            Debug.Log(result.PostId);
-        }
-        else
-        {
-            // Share succeeded without postID
-            Debug.Log("ShareLink success!");
-        }
-    }
 }
