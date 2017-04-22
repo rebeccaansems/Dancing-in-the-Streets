@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public Stack<GameObject> dancerGameObjectStack, previousDancerGameObjectStack;
     public Sprite walkingMan, dancingMan;
+
     public int rotSpeed, moveSpeed;
     public bool isConnected, isCircling, isHitting;
 
@@ -77,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnDeath()
     {
+        this.GetComponent<Leaderboard>().AddScore(this.GetComponent<PlayerScoring>().score);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

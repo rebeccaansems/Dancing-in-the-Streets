@@ -6,9 +6,10 @@ using UnityEngine.UI;
 public class PlayerScoring : MonoBehaviour
 {
     public Text scoreText, multiplierText;
+    public int score;
 
     private PlayerMovement playMove;
-    private int score, pointsPerScore = 1;
+    private int pointsPerScore = 1;
     private bool didScore = false, didMultiply = false;
 
     void Start()

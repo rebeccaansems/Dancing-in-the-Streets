@@ -1,12 +1,14 @@
 fileFormatVersion: 2
 guid: c9aa2074339eac745bcb14e886299498
-timeCreated: 1492649608
+timeCreated: 1492885957
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: UI_0
     21300002: UI_1
     21300004: UI_2
+    21300006: UI_3
+    21300008: UI_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -101,9 +103,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 623
-        width: 540
-        height: 514
+        y: 1668
+        width: 541
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,10 +115,10 @@ TextureImporter:
       name: UI_1
       rect:
         serializedVersion: 2
-        x: 986
-        y: 314
-        width: 2007
-        height: 613
+        x: 627
+        y: 1447
+        width: 2086
+        height: 742
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,10 +128,36 @@ TextureImporter:
       name: UI_2
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2826
         y: 0
-        width: 540
-        height: 514
+        width: 2085
+        height: 2189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1043
+        width: 541
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 306
+        width: 2009
+        height: 613
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
