@@ -22,9 +22,16 @@ public class SocialFacebook : MonoBehaviour
 
     public void Share()
     {
-            Debug.Log("share");
-            FB.ShareLink(new Uri("https://developers.facebook.com/"), callback: ShareCallback);
-        
+        Debug.Log("share");
+        FB.FeedShare(
+        string.Empty, //toId
+        new System.Uri("https://enterlinkhere.com"), //link
+        "PollyCube", //linkName
+        "LinkCaption", //linkCaption
+        "LinkDescription", //linkDescription
+        new System.Uri("https://enterimagehere.com"), //picture
+        string.Empty //mediaSource
+        );
     }
 
     private void InitCallback()
