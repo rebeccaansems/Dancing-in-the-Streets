@@ -37,10 +37,6 @@ public class PlayerScoring : MonoBehaviour
             else if (playMove.isCircling && !didMultiply)
             {
                 didMultiply = true;
-                if (pointsPerScore > 1)
-                {
-                    pointsPerScore--;
-                }
             }
         }
         else

@@ -7,6 +7,8 @@ public class CameraFollow : MonoBehaviour
     public GameObject player;
     public float cameraSpeed, cameraSpeedMultiplier;
 
+    private bool cameraIsMoving = false;
+
     // Use this for initialization
     void Start()
     {
@@ -16,10 +18,11 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.y > -2)
+        if (player.transform.position.y > -2 || cameraIsMoving)
         {
             this.transform.position = Vector3.Lerp(this.transform.position, new Vector3(this.transform.position.x,
                 this.transform.position.y + cameraSpeed + (Time.time * cameraSpeedMultiplier), -10), 0.05f);
+            cameraIsMoving = true;
         }
     }
 }
