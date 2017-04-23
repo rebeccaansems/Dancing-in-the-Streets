@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class UI : MonoBehaviour
 {
-    [Tooltip("Pause: 0, Header: 1, HighScore: 2")]
-    public Canvas pauseCanvas, headerCanvas, highScoresCanvas;
+    [Tooltip("Pause: 0, Header: 1, HighScore: 2, GameOver: 3")]
+    public Canvas pauseCanvas, headerCanvas, highScoresCanvas, gameOverCanvas;
+    public Button pauseButton;
 
     public static bool isUIOn = false;
 
@@ -63,6 +65,9 @@ public class UI : MonoBehaviour
             case 2:
                 highScoresCanvas.enabled = true;
                 break;
+            case 3:
+                gameOverCanvas.enabled = true;
+                break;
         }
 
         switch (currentCanvas)
@@ -76,7 +81,16 @@ public class UI : MonoBehaviour
             case 2:
                 highScoresCanvas.enabled = false;
                 break;
+            case 3:
+                gameOverCanvas.enabled = false;
+                break;
         }
+    }
+
+    public void PlayerDied()
+    {
+        gameOverCanvas.enabled = true;
+        pauseCanvas.enabled = false;
     }
 
     public void ChangeMusicVolume(float volume)
