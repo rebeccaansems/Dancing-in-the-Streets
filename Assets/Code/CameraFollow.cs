@@ -16,7 +16,7 @@ public class CameraFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (player.transform.position.y > -2 || cameraIsMoving)
         {
