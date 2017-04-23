@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: c9aa2074339eac745bcb14e886299498
-timeCreated: 1492885957
-licenseType: Free
+timeCreated: 1492960939
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: UI_0
@@ -9,6 +9,8 @@ TextureImporter:
     21300004: UI_2
     21300006: UI_3
     21300008: UI_4
+    21300010: UI_5
+    21300012: UI_6
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -107,7 +109,7 @@ TextureImporter:
         width: 541
         height: 520
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -120,7 +122,7 @@ TextureImporter:
         width: 2086
         height: 742
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -133,7 +135,7 @@ TextureImporter:
         width: 2085
         height: 2189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -146,7 +148,33 @@ TextureImporter:
         width: 541
         height: 519
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1095
+        width: 1986
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 35
+        width: 2009
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -154,12 +182,12 @@ TextureImporter:
       name: UI_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 306
-        width: 2009
-        height: 613
+        x: 685
+        y: 718
+        width: 1985
+        height: 319
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
