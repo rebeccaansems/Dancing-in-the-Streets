@@ -91,6 +91,8 @@ public class UI : MonoBehaviour
     {
         gameOverCanvas.enabled = true;
         pauseCanvas.enabled = false;
+        pauseButton.enabled = false;
+
     }
 
     public void ChangeMusicVolume(float volume)
