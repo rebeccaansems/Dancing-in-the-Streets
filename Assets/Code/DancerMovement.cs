@@ -56,15 +56,18 @@ public class DancerMovement : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (playerMovement.previousDancerGameObjectStack.Count != 0 &&
-            playerMovement.previousDancerGameObjectStack.Peek() != this.gameObject &&
-            playerMovement.isConnected)
+        if (!UI.isUIOn)
         {
-            playerMovement.dancerGameObjectStack.Push(this.gameObject);
-        }
-        else if (playerMovement.previousDancerGameObjectStack.Count == 0)
-        {
-            playerMovement.dancerGameObjectStack.Push(this.gameObject);
+            if (playerMovement.previousDancerGameObjectStack.Count != 0 &&
+                playerMovement.previousDancerGameObjectStack.Peek() != this.gameObject &&
+                playerMovement.isConnected)
+            {
+                playerMovement.dancerGameObjectStack.Push(this.gameObject);
+            }
+            else if (playerMovement.previousDancerGameObjectStack.Count == 0)
+            {
+                playerMovement.dancerGameObjectStack.Push(this.gameObject);
+            }
         }
     }
     
