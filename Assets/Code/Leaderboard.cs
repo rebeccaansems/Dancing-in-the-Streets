@@ -14,7 +14,6 @@ public class Leaderboard : MonoBehaviour
     private void Start()
     {
         m_leaderboardScores = new List<KeyValuePair<int, string>>();
-        PlayerPrefs.DeleteAll();
         LoadScores();
     }
 
@@ -67,6 +66,13 @@ public class Leaderboard : MonoBehaviour
 
         PlayerPrefs.Save();
 
+        LoadScores();
+    }
+
+    public void ClearScores()
+    {
+        PlayerPrefs.DeleteAll();
+        m_leaderboardScores = new List<KeyValuePair<int, string>>();
         LoadScores();
     }
 }
