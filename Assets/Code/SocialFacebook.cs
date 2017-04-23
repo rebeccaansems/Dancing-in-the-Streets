@@ -6,31 +6,39 @@ using System;
 
 public class SocialFacebook : MonoBehaviour
 {
+    public string appURL, photoURL;
+
     void Awake()
     {
         if (!FB.IsInitialized)
         {
-            // Initialize the Facebook SDK
-            FB.Init(InitCallback, OnHideUnity);
+            FB.Init(InitCallback);
         }
         else
         {
-            // Already initialized, signal an app activation App Event
             FB.ActivateApp();
         }
     }
 
-    public void Share()
+    public void ShareHighScores()
     {
-        Debug.Log("share");
-        FB.FeedShare(
-        string.Empty, //toId
-        new System.Uri("https://enterlinkhere.com"), //link
-        "PollyCube", //linkName
-        "LinkCaption", //linkCaption
-        "LinkDescription", //linkDescription
-        new System.Uri("https://enterimagehere.com"), //picture
-        string.Empty //mediaSource
+        FB.ShareLink(
+        new Uri(appURL),
+        "Dancing in the Streets",
+        "Try and beat my highscores on Dancing in the Streets!",
+        new Uri(photoURL),
+        null
+        );
+    }
+
+    public void ShareNewHighscore()
+    {
+        FB.ShareLink(
+        new Uri(appURL),
+        "Dancing in the Streets",
+        "My new highscore on Dancing in the Streets is " + PlayerPrefs.GetInt("Score1") + "! Can you beat it?",
+        new Uri(photoURL),
+        null
         );
     }
 
@@ -38,28 +46,11 @@ public class SocialFacebook : MonoBehaviour
     {
         if (FB.IsInitialized)
         {
-            // Signal an app activation App Event
             FB.ActivateApp();
-            // Continue with Facebook SDK
-            // ...
         }
         else
         {
             Debug.Log("Failed to Initialize the Facebook SDK");
-        }
-    }
-
-    private void OnHideUnity(bool isGameShown)
-    {
-        if (!isGameShown)
-        {
-            // Pause the game - we will need to hide
-            Time.timeScale = 0;
-        }
-        else
-        {
-            // Resume the game - we're getting focus again
-            Time.timeScale = 1;
         }
     }
 }
