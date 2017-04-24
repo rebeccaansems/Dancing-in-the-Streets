@@ -12,10 +12,13 @@ public class UI : MonoBehaviour
 
     public static bool isUIOn = false;
 
+    private Canvas currentCanvas, previousCanvas;
+
     private void Start()
     {
         pauseCanvas.enabled = false;
         highScoresCanvas.enabled = false;
+        gameOverCanvas.enabled = false;
         headerCanvas.enabled = true;
 
         isUIOn = pauseCanvas.enabled;
@@ -26,6 +29,9 @@ public class UI : MonoBehaviour
     {
         pauseCanvas.enabled = !pauseCanvas.enabled;
         isUIOn = pauseCanvas.enabled;
+
+        currentCanvas = pauseCanvas;
+        previousCanvas = null;
 
         if (pauseCanvas.enabled)
         {
@@ -44,55 +50,34 @@ public class UI : MonoBehaviour
 
     public void PressedHighScoresButton()
     {
-        highScoresCanvas.enabled = !highScoresCanvas.enabled;
+        highScoresCanvas.enabled = true;
         pauseCanvas.enabled = false;
+        gameOverCanvas.enabled = false;
+
+        previousCanvas = currentCanvas;
+        currentCanvas = highScoresCanvas;
     }
 
-    public void PressedBackButton(string canvasSwap)
+    public void PressedBackButton()
     {
-        int position = canvasSwap.IndexOf(" ");
-        int previousCanvas = int.Parse(canvasSwap.Substring(0, position));
-        int currentCanvas = int.Parse(canvasSwap.Substring(position + 1));
+        currentCanvas.enabled = false;
+        previousCanvas.enabled = true;
 
-        switch (previousCanvas)
-        {
-            case 0:
-                pauseCanvas.enabled = true;
-                break;
-            case 1:
-                headerCanvas.enabled = true;
-                break;
-            case 2:
-                highScoresCanvas.enabled = true;
-                break;
-            case 3:
-                gameOverCanvas.enabled = true;
-                break;
-        }
-
-        switch (currentCanvas)
-        {
-            case 0:
-                pauseCanvas.enabled = false;
-                break;
-            case 1:
-                headerCanvas.enabled = false;
-                break;
-            case 2:
-                highScoresCanvas.enabled = false;
-                break;
-            case 3:
-                gameOverCanvas.enabled = false;
-                break;
-        }
+        currentCanvas = previousCanvas;
     }
 
     public void PlayerDied()
     {
-        gameOverCanvas.enabled = true;
-        pauseCanvas.enabled = false;
-        pauseButton.enabled = false;
+        Time.timeScale = 0;
+        if(gameOverCanvas != null)
+        {
+            gameOverCanvas.enabled = true;
+            pauseCanvas.enabled = false;
+            pauseButton.enabled = false;
 
+            currentCanvas = gameOverCanvas;
+            previousCanvas = null;
+        }
     }
 
     public void ChangeMusicVolume(float volume)

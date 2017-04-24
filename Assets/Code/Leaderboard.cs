@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class Leaderboard : MonoBehaviour
 {
-    public Text[] scoresText;
-    public Text[] datesText;
+    public Text[] leaderboardScoresText, gameoverScoresText;
+    public Text[] leaderboardDatesText, gameoverDatesText;
 
     private List<KeyValuePair<int, string>> m_leaderboardScores;
 
@@ -32,13 +32,21 @@ public class Leaderboard : MonoBehaviour
 
         for (int i = 0; i < 5; i++)
         {
-            if (scoresText[i] != null)
+            if (leaderboardScoresText[i] != null)
             {
-                scoresText[i].text = m_leaderboardScores[i].Key.ToString();
-                datesText[i].text = m_leaderboardScores[i].Value;
+                leaderboardScoresText[i].text = m_leaderboardScores[i].Key.ToString();
+                leaderboardDatesText[i].text = m_leaderboardScores[i].Value;
             }
         }
 
+        for (int i = 0; i < 3; i++)
+        {
+            if (gameoverScoresText[i] != null)
+            {
+                gameoverScoresText[i].text = m_leaderboardScores[i].Key.ToString();
+                gameoverDatesText[i].text = m_leaderboardScores[i].Value;
+            }
+        }
     }
 
     public void AddScore(int score)

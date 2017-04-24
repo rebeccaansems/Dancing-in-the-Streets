@@ -44,6 +44,7 @@ public class SocialFacebook : MonoBehaviour
 
     private void InitCallback()
     {
+#if !UNITY_EDITOR
         if (FB.IsInitialized)
         {
             FB.ActivateApp();
@@ -52,5 +53,6 @@ public class SocialFacebook : MonoBehaviour
         {
             Debug.Log("Failed to Initialize the Facebook SDK");
         }
+#endif
     }
 }
