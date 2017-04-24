@@ -25,7 +25,7 @@ public class SocialFacebook : MonoBehaviour
         FB.ShareLink(
         new Uri(appURL),
         "Dancing in the Streets",
-        "Try and beat my highscores on Dancing in the Streets!",
+        "Try and beat my highest score, "+ PlayerPrefs.GetInt("Score1") +", on Dancing in the Streets!",
         new Uri(photoURL),
         null
         );
