@@ -8,6 +8,7 @@ public class Leaderboard : MonoBehaviour
 {
     public Text[] leaderboardScoresText, gameoverScoresText;
     public Text[] leaderboardDatesText, gameoverDatesText;
+    public Text[] statsText;
 
     private List<KeyValuePair<int, string>> m_leaderboardScores;
 
@@ -54,6 +55,16 @@ public class Leaderboard : MonoBehaviour
         m_leaderboardScores.Add(new KeyValuePair<int, string>(score, DateTime.Today.ToString("dd/MM/yyyy")));
         m_leaderboardScores.Sort((s1, s2) => s2.Key.CompareTo(s1.Key));
         SaveScores();
+    }
+
+    public void AddPairings(int pairings)
+    {
+        statsText[0].text = pairings.ToString();
+    }
+
+    public void AddMultiplier(int multi)
+    {
+        statsText[1].text = multi.ToString();
     }
 
     public void SaveScores()

@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     private GameObject currentDancer;
 
+    private int numPairings;
+
     // Use this for initialization
     void Start()
     {
@@ -57,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
                 if ((difAngles >= 77 && difAngles <= 103) || (difAngles >= -283 && difAngles <= -257))
                 {
                     isConnected = true;
+                    numPairings++;
                 }
                 else
                 {
@@ -77,14 +80,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void OnDeath()
-    {
-        this.GetComponent<Leaderboard>().AddScore(this.GetComponent<PlayerScoring>().score);
-        UiControls.PlayerDied();
-    }
-
     void OnBecameInvisible()
     {
-        OnDeath();
+        this.GetComponent<Leaderboard>().AddScore(this.GetComponent<PlayerScoring>().score);
+        this.GetComponent<Leaderboard>().AddPairings(numPairings);
+        UiControls.PlayerDied();
     }
 }

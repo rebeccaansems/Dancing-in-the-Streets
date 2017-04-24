@@ -9,7 +9,7 @@ public class PlayerScoring : MonoBehaviour
     public int score;
 
     private PlayerMovement playMove;
-    private int pointsPerScore = 1;
+    private int pointsPerScore = 1, highestMultiplier = 1;
     private bool didScore = false, didMultiply = false;
 
     void Start()
@@ -20,7 +20,7 @@ public class PlayerScoring : MonoBehaviour
     void Update()
     {
         scoreText.text = score.ToString();
-        multiplierText.text = "x"+pointsPerScore;
+        multiplierText.text = "x" + pointsPerScore;
 
         if (!didScore)
         {
@@ -29,6 +29,11 @@ public class PlayerScoring : MonoBehaviour
                 pointsPerScore++;
                 score += pointsPerScore;
                 didScore = true;
+
+                if (highestMultiplier < pointsPerScore)
+                {
+                    highestMultiplier = pointsPerScore;
+                }
             }
             else if (playMove.isConnected)
             {
@@ -54,5 +59,10 @@ public class PlayerScoring : MonoBehaviour
     {
         score -= 10;
         pointsPerScore = 1;
+    }
+
+    void OnBecameInvisible()
+    {
+        this.GetComponent<Leaderboard>().AddMultiplier(highestMultiplier);
     }
 }
