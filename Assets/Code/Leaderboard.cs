@@ -59,12 +59,18 @@ public class Leaderboard : MonoBehaviour
 
     public void AddPairings(int pairings)
     {
-        statsText[0].text = pairings.ToString();
+        if(statsText[0] != null)
+        {
+            statsText[0].text = pairings.ToString();
+        }
     }
 
     public void AddMultiplier(int multi)
     {
-        statsText[1].text = multi.ToString();
+        if(statsText[1] != null)
+        {
+            statsText[1].text = multi.ToString();
+        }
     }
 
     public void SaveScores()
