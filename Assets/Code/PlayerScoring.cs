@@ -19,6 +19,10 @@ public class PlayerScoring : MonoBehaviour
 
     void Update()
     {
+        if (score > PlayerPrefs.GetInt("Score5"))
+        {
+            scoreText.gameObject.GetComponent<Outline>().effectColor = new Color32(236, 45, 61, 255);
+        }
         scoreText.text = score.ToString();
         multiplierText.text = "x" + pointsPerScore;
 
@@ -58,7 +62,7 @@ public class PlayerScoring : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         score -= 10;
-        if(score < 0)
+        if (score < 0)
         {
             score = 0;
         }
