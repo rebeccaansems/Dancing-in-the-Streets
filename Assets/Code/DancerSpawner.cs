@@ -5,7 +5,7 @@ using UnityEngine;
 public class DancerSpawner : MonoBehaviour
 {
     public List<GameObject> dancerGroups;
-    public GameObject player;
+    public GameObject camera;
 
     private int lastYValue, playerSpawnLocation = 40;
     private GameObject newDancerGroup;
@@ -18,8 +18,8 @@ public class DancerSpawner : MonoBehaviour
 
     void Update()
     {
-        if ((int)player.transform.position.y % playerSpawnLocation == 0
-            && (int)player.transform.position.y != 0)
+        if ((int)camera.transform.position.y % playerSpawnLocation == 0
+            && (int)camera.transform.position.y != 0)
         {
             playerSpawnLocation += 40;
             SpawnBlock(5);

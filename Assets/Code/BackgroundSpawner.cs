@@ -5,7 +5,7 @@ using UnityEngine;
 public class BackgroundSpawner : MonoBehaviour
 {
     public GameObject[] floorPieces, wallPieces;
-    public GameObject player;
+    public GameObject camera;
     public bool isWallSpawner;
 
     private GameObject newFloor, newWall;
@@ -16,35 +16,40 @@ public class BackgroundSpawner : MonoBehaviour
     {
         if (isWallSpawner)
         {
-            SpawnWallBlock(6);
+            SpawnWallBlock(6, false);
         }
         else
         {
-            SpawnFloorBlock(30);
+            SpawnFloorBlock(30, false);
         }
     }
 
     void Update()
     {
-        if ((int)player.transform.position.y % playerSpawnPosition == 0
-            && (int)player.transform.position.y != 0)
+        if ((int)camera.transform.position.y % playerSpawnPosition == 0
+            && (int)camera.transform.position.y != 0)
         {
             playerSpawnPosition += 40;
             if (isWallSpawner)
             {
-                SpawnWallBlock(4);
+                SpawnWallBlock(4, true);
             }
             else
             {
-                SpawnFloorBlock(20);
+                SpawnFloorBlock(20, true);
             }
         }
     }
 
-    void SpawnFloorBlock(int repeat)
+    void SpawnFloorBlock(int repeat, bool destroy)
     {
         for (int i = 0; i < repeat; i++)
         {
+            if (destroy)
+            {
+                Destroy(transform.GetChild(i).gameObject);
+            }
+
             newFloor = Instantiate(floorPieces[Random.Range(0, floorPieces.Length)], this.transform);
             newFloor.transform.position = new Vector2(-2, currentY);
 
@@ -56,9 +61,17 @@ public class BackgroundSpawner : MonoBehaviour
 
             currentY += 2.25f;
         }
+
+        if (destroy)
+        {
+            for (int i = 0; i < repeat * 2; i++)
+            {
+                Destroy(transform.GetChild(i).gameObject);
+            }
+        }
     }
 
-    void SpawnWallBlock(int repeat)
+    void SpawnWallBlock(int repeat, bool destroy)
     {
         for (int i = 0; i < repeat; i++)
         {
@@ -69,6 +82,14 @@ public class BackgroundSpawner : MonoBehaviour
             newWall.transform.position = new Vector2(2.82f, currentY);
 
             currentY += 12f;
+        }
+
+        if (destroy)
+        {
+            for (int i = 0; i < repeat* 2; i++)
+            {
+                Destroy(transform.GetChild(i).gameObject);
+            }
         }
     }
 }

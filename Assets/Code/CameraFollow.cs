@@ -8,6 +8,7 @@ public class CameraFollow : MonoBehaviour
     public float cameraSpeed, cameraSpeedMultiplier;
 
     private bool cameraIsMoving = false;
+    private float startTime; 
 
     // Use this for initialization
     void Start()
@@ -21,8 +22,12 @@ public class CameraFollow : MonoBehaviour
         if (player.transform.position.y > -2 || cameraIsMoving)
         {
             this.transform.position = Vector3.Lerp(this.transform.position, new Vector3(this.transform.position.x,
-                this.transform.position.y + cameraSpeed + (Time.timeSinceLevelLoad * cameraSpeedMultiplier), -10), 0.05f);
+                this.transform.position.y + cameraSpeed + ((Time.timeSinceLevelLoad - startTime) * cameraSpeedMultiplier), -10), 0.05f);
             cameraIsMoving = true;
+        }
+        else
+        {
+            startTime = Time.timeSinceLevelLoad;
         }
     }
 }

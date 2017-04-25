@@ -58,6 +58,10 @@ public class PlayerScoring : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         score -= 10;
+        if(score < 0)
+        {
+            score = 0;
+        }
         pointsPerScore = 1;
     }
 
