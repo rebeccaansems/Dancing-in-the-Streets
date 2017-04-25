@@ -1,9 +1,73 @@
 fileFormatVersion: 2
 guid: acaab8eadc0ebec479c841c74b8a2a35
-timeCreated: 1493074274
+timeCreated: 1493160346
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Dancers - Pink Pop_0
+    21300002: Dancers - Pink Pop_1
+    21300004: Dancers - Pink Pop_2
+    21300006: Dancers - Pink Pop_3
+    21300008: Dancers - Pink Pop_4
+    21300010: Dancers - Pink Pop_5
+    21300012: Dancers - Pink Pop_6
+    21300014: Dancers - Pink Pop_7
+    21300016: Dancers - Pink Pop_8
+    21300018: Dancers - Pink Pop_9
+    21300020: Dancers - Pink Pop_10
+    21300022: Dancers - Pink Pop_11
+    21300024: Dancers - Pink Pop_12
+    21300026: Dancers - Pink Pop_13
+    21300028: Dancers - Pink Pop_14
+    21300030: Dancers - Pink Pop_15
+    21300032: Dancers - Pink Pop_16
+    21300034: Dancers - Pink Pop_17
+    21300036: Dancers - Pink Pop_18
+    21300038: Dancers - Pink Pop_19
+    21300040: Dancers - Pink Pop_20
+    21300042: Dancers - Pink Pop_21
+    21300044: Dancers - Pink Pop_22
+    21300046: Dancers - Pink Pop_23
+    21300048: Dancers - Pink Pop_24
+    21300050: Dancers - Pink Pop_25
+    21300052: Dancers - Pink Pop_26
+    21300054: Dancers - Pink Pop_27
+    21300056: Dancers - Pink Pop_28
+    21300058: Dancers - Pink Pop_29
+    21300060: Dancers - Pink Pop_30
+    21300062: Dancers - Pink Pop_31
+    21300064: Dancers - Pink Pop_32
+    21300066: Dancers - Pink Pop_33
+    21300068: Dancers - Pink Pop_34
+    21300070: Dancers - Pink Pop_35
+    21300072: Dancers - Pink Pop_36
+    21300074: Dancers - Pink Pop_37
+    21300076: Dancers - Pink Pop_38
+    21300078: Dancers - Pink Pop_39
+    21300080: Dancers - Pink Pop_40
+    21300082: Dancers - Pink Pop_41
+    21300084: Dancers - Pink Pop_42
+    21300086: Dancers - Pink Pop_43
+    21300088: Dancers - Pink Pop_44
+    21300090: Dancers - Pink Pop_45
+    21300092: Dancers - Pink Pop_46
+    21300094: Dancers - Pink Pop_47
+    21300096: Dancers - Pink Pop_48
+    21300098: Dancers - Pink Pop_49
+    21300100: Dancers - Pink Pop_50
+    21300102: Dancers - Pink Pop_51
+    21300104: Dancers - Pink Pop_52
+    21300106: Dancers - Pink Pop_53
+    21300108: Dancers - Pink Pop_54
+    21300110: Dancers - Pink Pop_55
+    21300112: Dancers - Pink Pop_56
+    21300114: Dancers - Pink Pop_57
+    21300116: Dancers - Pink Pop_58
+    21300118: Dancers - Pink Pop_59
+    21300120: Dancers - Pink Pop_60
+    21300122: Dancers - Pink Pop_61
+    21300124: Dancers - Pink Pop_62
+    21300126: Dancers - Pink Pop_63
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -76,7 +140,839 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5218
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_1
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 5218
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_2
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 5218
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_3
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 5218
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_4
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_5
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_6
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_7
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5238
+        width: 616
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4487
+        width: 616
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 4487
+        width: 620
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_10
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 4487
+        width: 621
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_11
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 4487
+        width: 620
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_12
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_13
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_14
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_15
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4507
+        width: 616
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3758
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3758
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_18
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3758
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_19
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3758
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_20
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_21
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_22
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_23
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3778
+        width: 616
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3050
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_25
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_26
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3050
+        width: 618
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_27
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_28
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 3050
+        width: 617
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_29
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_30
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_31
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 3050
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2035
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_33
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2035
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_34
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2035
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_35
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 2035
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_36
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_37
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_38
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_39
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2055
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1347
+        width: 616
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_41
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1347
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_42
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1347
+        width: 621
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_43
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1347
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_44
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_45
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_46
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_47
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1368
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_49
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 680
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_50
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 680
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_51
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 680
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_52
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_53
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_54
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_55
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 701
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 619
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_57
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 13
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_58
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 13
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_59
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 13
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_60
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 0
+        width: 617
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_61
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_62
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Pink Pop_63
+      rect:
+        serializedVersion: 2
+        x: 5373
+        y: 0
+        width: 619
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
