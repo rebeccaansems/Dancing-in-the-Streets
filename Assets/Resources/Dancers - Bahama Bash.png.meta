@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: f88c01ec38663754c84261459b7cae8e
+timeCreated: 1493140719
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dancers - Bahama Bash_0
+    21300002: Dancers - Bahama Bash_1
+    21300004: Dancers - Bahama Bash_2
+    21300006: Dancers - Bahama Bash_3
+    21300008: Dancers - Bahama Bash_4
+    21300010: Dancers - Bahama Bash_5
+    21300012: Dancers - Bahama Bash_6
+    21300014: Dancers - Bahama Bash_7
+    21300016: Dancers - Bahama Bash_8
+    21300018: Dancers - Bahama Bash_9
+    21300020: Dancers - Bahama Bash_10
+    21300022: Dancers - Bahama Bash_11
+    21300024: Dancers - Bahama Bash_12
+    21300026: Dancers - Bahama Bash_13
+    21300028: Dancers - Bahama Bash_14
+    21300030: Dancers - Bahama Bash_15
+    21300032: Dancers - Bahama Bash_16
+    21300034: Dancers - Bahama Bash_17
+    21300036: Dancers - Bahama Bash_18
+    21300038: Dancers - Bahama Bash_19
+    21300040: Dancers - Bahama Bash_20
+    21300042: Dancers - Bahama Bash_21
+    21300044: Dancers - Bahama Bash_22
+    21300046: Dancers - Bahama Bash_23
+    21300048: Dancers - Bahama Bash_24
+    21300050: Dancers - Bahama Bash_25
+    21300052: Dancers - Bahama Bash_26
+    21300054: Dancers - Bahama Bash_27
+    21300056: Dancers - Bahama Bash_28
+    21300058: Dancers - Bahama Bash_29
+    21300060: Dancers - Bahama Bash_30
+    21300062: Dancers - Bahama Bash_31
+    21300064: Dancers - Bahama Bash_32
+    21300066: Dancers - Bahama Bash_33
+    21300068: Dancers - Bahama Bash_34
+    21300070: Dancers - Bahama Bash_35
+    21300072: Dancers - Bahama Bash_36
+    21300074: Dancers - Bahama Bash_37
+    21300076: Dancers - Bahama Bash_38
+    21300078: Dancers - Bahama Bash_39
+    21300080: Dancers - Bahama Bash_40
+    21300082: Dancers - Bahama Bash_41
+    21300084: Dancers - Bahama Bash_42
+    21300086: Dancers - Bahama Bash_43
+    21300088: Dancers - Bahama Bash_44
+    21300090: Dancers - Bahama Bash_45
+    21300092: Dancers - Bahama Bash_46
+    21300094: Dancers - Bahama Bash_47
+    21300096: Dancers - Bahama Bash_48
+    21300098: Dancers - Bahama Bash_49
+    21300100: Dancers - Bahama Bash_50
+    21300102: Dancers - Bahama Bash_51
+    21300104: Dancers - Bahama Bash_52
+    21300106: Dancers - Bahama Bash_53
+    21300108: Dancers - Bahama Bash_54
+    21300110: Dancers - Bahama Bash_55
+    21300112: Dancers - Bahama Bash_56
+    21300114: Dancers - Bahama Bash_57
+    21300116: Dancers - Bahama Bash_58
+    21300118: Dancers - Bahama Bash_59
+    21300120: Dancers - Bahama Bash_60
+    21300122: Dancers - Bahama Bash_61
+    21300124: Dancers - Bahama Bash_62
+    21300126: Dancers - Bahama Bash_63
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5218
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_1
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 5218
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_2
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 5218
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_3
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 5218
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_4
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_5
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_6
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_7
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5238
+        width: 616
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4487
+        width: 616
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 4487
+        width: 620
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_10
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 4487
+        width: 621
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_11
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 4487
+        width: 620
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_12
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_13
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_14
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_15
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4507
+        width: 616
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3758
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3758
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_18
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3758
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_19
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3758
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_20
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_21
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_22
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_23
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3778
+        width: 616
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3050
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_25
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_26
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3050
+        width: 618
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_27
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_28
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 3050
+        width: 617
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_29
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_30
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_31
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 3050
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2035
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_33
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2035
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_34
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2035
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_35
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 2035
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_36
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_37
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_38
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_39
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2055
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1347
+        width: 616
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_41
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1347
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_42
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1347
+        width: 621
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_43
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1347
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_44
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_45
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_46
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_47
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1368
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_49
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 680
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_50
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 680
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_51
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 680
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_52
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_53
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_54
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_55
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 701
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 619
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_57
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 13
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_58
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 13
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_59
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 13
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_60
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 0
+        width: 617
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_61
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_62
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Bahama Bash_63
+      rect:
+        serializedVersion: 2
+        x: 5373
+        y: 0
+        width: 619
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

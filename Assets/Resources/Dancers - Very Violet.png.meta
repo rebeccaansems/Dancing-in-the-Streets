@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: a9d1bf1fb7cadba429bfcdc1b61f5c22
+timeCreated: 1493148831
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dancers - Very Violet_0
+    21300002: Dancers - Very Violet_1
+    21300004: Dancers - Very Violet_2
+    21300006: Dancers - Very Violet_3
+    21300008: Dancers - Very Violet_4
+    21300010: Dancers - Very Violet_5
+    21300012: Dancers - Very Violet_6
+    21300014: Dancers - Very Violet_7
+    21300016: Dancers - Very Violet_8
+    21300018: Dancers - Very Violet_9
+    21300020: Dancers - Very Violet_10
+    21300022: Dancers - Very Violet_11
+    21300024: Dancers - Very Violet_12
+    21300026: Dancers - Very Violet_13
+    21300028: Dancers - Very Violet_14
+    21300030: Dancers - Very Violet_15
+    21300032: Dancers - Very Violet_16
+    21300034: Dancers - Very Violet_17
+    21300036: Dancers - Very Violet_18
+    21300038: Dancers - Very Violet_19
+    21300040: Dancers - Very Violet_20
+    21300042: Dancers - Very Violet_21
+    21300044: Dancers - Very Violet_22
+    21300046: Dancers - Very Violet_23
+    21300048: Dancers - Very Violet_24
+    21300050: Dancers - Very Violet_25
+    21300052: Dancers - Very Violet_26
+    21300054: Dancers - Very Violet_27
+    21300056: Dancers - Very Violet_28
+    21300058: Dancers - Very Violet_29
+    21300060: Dancers - Very Violet_30
+    21300062: Dancers - Very Violet_31
+    21300064: Dancers - Very Violet_32
+    21300066: Dancers - Very Violet_33
+    21300068: Dancers - Very Violet_34
+    21300070: Dancers - Very Violet_35
+    21300072: Dancers - Very Violet_36
+    21300074: Dancers - Very Violet_37
+    21300076: Dancers - Very Violet_38
+    21300078: Dancers - Very Violet_39
+    21300080: Dancers - Very Violet_40
+    21300082: Dancers - Very Violet_41
+    21300084: Dancers - Very Violet_42
+    21300086: Dancers - Very Violet_43
+    21300088: Dancers - Very Violet_44
+    21300090: Dancers - Very Violet_45
+    21300092: Dancers - Very Violet_46
+    21300094: Dancers - Very Violet_47
+    21300096: Dancers - Very Violet_48
+    21300098: Dancers - Very Violet_49
+    21300100: Dancers - Very Violet_50
+    21300102: Dancers - Very Violet_51
+    21300104: Dancers - Very Violet_52
+    21300106: Dancers - Very Violet_53
+    21300108: Dancers - Very Violet_54
+    21300110: Dancers - Very Violet_55
+    21300112: Dancers - Very Violet_56
+    21300114: Dancers - Very Violet_57
+    21300116: Dancers - Very Violet_58
+    21300118: Dancers - Very Violet_59
+    21300120: Dancers - Very Violet_60
+    21300122: Dancers - Very Violet_61
+    21300124: Dancers - Very Violet_62
+    21300126: Dancers - Very Violet_63
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dancers - Very Violet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5218
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_1
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 5218
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_2
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 5218
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_3
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 5218
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_4
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_5
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_6
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_7
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5238
+        width: 616
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4487
+        width: 616
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 4487
+        width: 620
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_10
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 4487
+        width: 621
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_11
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 4487
+        width: 620
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_12
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_13
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_14
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_15
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4507
+        width: 616
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3758
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3758
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_18
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3758
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_19
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3758
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_20
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_21
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_22
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_23
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3778
+        width: 616
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3050
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_25
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_26
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3050
+        width: 618
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_27
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_28
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 3050
+        width: 617
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_29
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_30
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_31
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 3050
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2035
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_33
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2035
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_34
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2035
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_35
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 2035
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_36
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_37
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_38
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_39
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2055
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1347
+        width: 616
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_41
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1347
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_42
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1347
+        width: 621
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_43
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1347
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_44
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_45
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_46
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_47
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1368
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_49
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 680
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_50
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 680
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_51
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 680
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_52
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_53
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_54
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_55
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 701
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 619
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_57
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 13
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_58
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 13
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_59
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 13
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_60
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 0
+        width: 617
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_61
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_62
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Very Violet_63
+      rect:
+        serializedVersion: 2
+        x: 5373
+        y: 0
+        width: 619
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

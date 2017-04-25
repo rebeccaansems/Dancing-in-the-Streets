@@ -6,22 +6,31 @@ public class DancerDatabase : MonoBehaviour
 {
     [HideInInspector]
     public List<Sprite> armsIn, armsOut;
-
-    public List<Sprite> colorSchemeArmsIn1, colorSchemeArmsOut1;
-    public List<Sprite> colorSchemeArmsIn2, colorSchemeArmsOut2;
-    public List<Sprite> colorSchemeArmsIn3, colorSchemeArmsOut3;
-    public List<Sprite> colorSchemeArmsIn4, colorSchemeArmsOut4;
-    public List<Sprite> colorSchemeArmsIn5, colorSchemeArmsOut5;
-    public List<Sprite> colorSchemeArmsIn6, colorSchemeArmsOut6;
+    public List<Texture2D> textures;
 
     private List<List<Sprite>> allColorSchemesArmsIn, allColorSchemesArmsOut;
-    // Use this for initialization
+
     void Awake()
     {
-        allColorSchemesArmsIn = new List<List<Sprite>>() { colorSchemeArmsIn1, colorSchemeArmsIn2, colorSchemeArmsIn3,
-            colorSchemeArmsIn4, colorSchemeArmsIn5, colorSchemeArmsIn6 };
-        allColorSchemesArmsOut = new List<List<Sprite>>() { colorSchemeArmsOut1, colorSchemeArmsOut2, colorSchemeArmsOut3,
-            colorSchemeArmsOut4, colorSchemeArmsOut5, colorSchemeArmsOut6 };
+        allColorSchemesArmsIn = new List<List<Sprite>>();
+        allColorSchemesArmsOut = new List<List<Sprite>>();
+
+        for (int j = 0; j < textures.Count; j++)
+        {
+            Sprite[] sprites = Resources.LoadAll<Sprite>(textures[j].name);
+            List<Sprite> armsIn = new List<Sprite>();
+            List<Sprite> armsOut = new List<Sprite>();
+            for (int i = 0; i < sprites.Length / 2; i++)
+            {
+                armsOut.Add(sprites[i]);
+            }
+            for (int i = sprites.Length / 2; i < sprites.Length; i++)
+            {
+                armsIn.Add(sprites[i]);
+            }
+            allColorSchemesArmsIn.Add(armsIn);
+            allColorSchemesArmsOut.Add(armsOut);
+        }
 
         int index = Random.Range(0, allColorSchemesArmsIn.Count);
         armsIn = new List<Sprite>(allColorSchemesArmsIn[index]);

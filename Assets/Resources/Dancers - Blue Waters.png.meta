@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 7fe4c7546e9d0fb4fb6c4456dc61165a
+timeCreated: 1493143209
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dancers - Blue Waters_0
+    21300002: Dancers - Blue Waters_1
+    21300004: Dancers - Blue Waters_2
+    21300006: Dancers - Blue Waters_3
+    21300008: Dancers - Blue Waters_4
+    21300010: Dancers - Blue Waters_5
+    21300012: Dancers - Blue Waters_6
+    21300014: Dancers - Blue Waters_7
+    21300016: Dancers - Blue Waters_8
+    21300018: Dancers - Blue Waters_9
+    21300020: Dancers - Blue Waters_10
+    21300022: Dancers - Blue Waters_11
+    21300024: Dancers - Blue Waters_12
+    21300026: Dancers - Blue Waters_13
+    21300028: Dancers - Blue Waters_14
+    21300030: Dancers - Blue Waters_15
+    21300032: Dancers - Blue Waters_16
+    21300034: Dancers - Blue Waters_17
+    21300036: Dancers - Blue Waters_18
+    21300038: Dancers - Blue Waters_19
+    21300040: Dancers - Blue Waters_20
+    21300042: Dancers - Blue Waters_21
+    21300044: Dancers - Blue Waters_22
+    21300046: Dancers - Blue Waters_23
+    21300048: Dancers - Blue Waters_24
+    21300050: Dancers - Blue Waters_25
+    21300052: Dancers - Blue Waters_26
+    21300054: Dancers - Blue Waters_27
+    21300056: Dancers - Blue Waters_28
+    21300058: Dancers - Blue Waters_29
+    21300060: Dancers - Blue Waters_30
+    21300062: Dancers - Blue Waters_31
+    21300064: Dancers - Blue Waters_32
+    21300066: Dancers - Blue Waters_33
+    21300068: Dancers - Blue Waters_34
+    21300070: Dancers - Blue Waters_35
+    21300072: Dancers - Blue Waters_36
+    21300074: Dancers - Blue Waters_37
+    21300076: Dancers - Blue Waters_38
+    21300078: Dancers - Blue Waters_39
+    21300080: Dancers - Blue Waters_40
+    21300082: Dancers - Blue Waters_41
+    21300084: Dancers - Blue Waters_42
+    21300086: Dancers - Blue Waters_43
+    21300088: Dancers - Blue Waters_44
+    21300090: Dancers - Blue Waters_45
+    21300092: Dancers - Blue Waters_46
+    21300094: Dancers - Blue Waters_47
+    21300096: Dancers - Blue Waters_48
+    21300098: Dancers - Blue Waters_49
+    21300100: Dancers - Blue Waters_50
+    21300102: Dancers - Blue Waters_51
+    21300104: Dancers - Blue Waters_52
+    21300106: Dancers - Blue Waters_53
+    21300108: Dancers - Blue Waters_54
+    21300110: Dancers - Blue Waters_55
+    21300112: Dancers - Blue Waters_56
+    21300114: Dancers - Blue Waters_57
+    21300116: Dancers - Blue Waters_58
+    21300118: Dancers - Blue Waters_59
+    21300120: Dancers - Blue Waters_60
+    21300122: Dancers - Blue Waters_61
+    21300124: Dancers - Blue Waters_62
+    21300126: Dancers - Blue Waters_63
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5218
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_1
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 5218
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_2
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 5218
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_3
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 5218
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_4
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_5
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_6
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 5238
+        width: 620
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_7
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 5238
+        width: 616
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4487
+        width: 616
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 4487
+        width: 620
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_10
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 4487
+        width: 621
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_11
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 4487
+        width: 620
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_12
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_13
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_14
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 4507
+        width: 620
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_15
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 4507
+        width: 616
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3758
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3758
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_18
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3758
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_19
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3758
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_20
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_21
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_22
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 3778
+        width: 620
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_23
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 3778
+        width: 616
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3050
+        width: 616
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_25
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_26
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 3050
+        width: 618
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_27
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_28
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 3050
+        width: 617
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_29
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_30
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 3050
+        width: 620
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_31
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 3050
+        width: 621
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2035
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_33
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2035
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_34
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 2035
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_35
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 2035
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_36
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_37
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_38
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 2055
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_39
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 2055
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1347
+        width: 616
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_41
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1347
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_42
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1347
+        width: 621
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_43
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1347
+        width: 620
+        height: 618
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_44
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_45
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_46
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 1368
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_47
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 1368
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_49
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 680
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_50
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 680
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_51
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 680
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_52
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_53
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_54
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 701
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_55
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 701
+        width: 616
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 619
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_57
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 13
+        width: 621
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_58
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 13
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_59
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 13
+        width: 620
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_60
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 0
+        width: 617
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_61
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_62
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 0
+        width: 620
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dancers - Blue Waters_63
+      rect:
+        serializedVersion: 2
+        x: 5373
+        y: 0
+        width: 619
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

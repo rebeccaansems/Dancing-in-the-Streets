@@ -54,6 +54,7 @@ public class Leaderboard : MonoBehaviour
     {
         m_leaderboardScores.Add(new KeyValuePair<int, string>(score, DateTime.Today.ToString("dd/MM/yyyy")));
         m_leaderboardScores.Sort((s1, s2) => s2.Key.CompareTo(s1.Key));
+                
         SaveScores();
     }
 
