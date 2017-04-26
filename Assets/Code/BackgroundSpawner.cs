@@ -64,7 +64,7 @@ public class BackgroundSpawner : MonoBehaviour
 
         if (destroy)
         {
-            for (int i = 0; i < repeat * 2; i++)
+            for (int i = 0; i < repeat * 1.5; i++)
             {
                 Destroy(transform.GetChild(i).gameObject);
             }
@@ -86,7 +86,7 @@ public class BackgroundSpawner : MonoBehaviour
 
         if (destroy)
         {
-            for (int i = 0; i < repeat* 2; i++)
+            for (int i = 0; i < repeat * 1.5; i++)
             {
                 Destroy(transform.GetChild(i).gameObject);
             }

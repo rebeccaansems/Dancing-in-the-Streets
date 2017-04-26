@@ -25,8 +25,12 @@ public class PlayerScoring : MonoBehaviour
         {
             scoreStar.enabled = true;
         }
+        else if (score <= PlayerPrefs.GetInt("Score5") && scoreStar.enabled)
+        {
+            scoreStar.enabled = false;
+        }
 
-        scoreText.text = score.ToString();
+            scoreText.text = score.ToString();
         multiplierText.text = "x" + pointsPerScore;
 
         if (!didScore)

@@ -9,6 +9,7 @@ public class UI : MonoBehaviour
     [Tooltip("Pause: 0, Header: 1, HighScore: 2, GameOver: 3")]
     public Canvas pauseCanvas, headerCanvas, highScoresCanvas, gameOverCanvas;
     public Button pauseButton;
+    public GameObject player;
 
     public static bool isUIOn = false;
 
@@ -56,6 +57,8 @@ public class UI : MonoBehaviour
 
         previousCanvas = currentCanvas;
         currentCanvas = highScoresCanvas;
+
+        player.GetComponent<Leaderboard>().PressedLeaderboardButton();
     }
 
     public void PressedBackButton()
