@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PlayerScoring : MonoBehaviour
 {
     public Text scoreText, multiplierText;
+    public Image scoreStar;
     public int score;
 
     private PlayerMovement playMove;
@@ -15,14 +16,16 @@ public class PlayerScoring : MonoBehaviour
     void Start()
     {
         playMove = GetComponent<PlayerMovement>();
+        scoreStar.enabled = false;
     }
 
     void Update()
     {
-        if (score > PlayerPrefs.GetInt("Score5"))
+        if (score > PlayerPrefs.GetInt("Score5") && !scoreStar.enabled)
         {
-            scoreText.gameObject.GetComponent<Outline>().effectColor = new Color32(236, 45, 61, 255);
+            scoreStar.enabled = true;
         }
+
         scoreText.text = score.ToString();
         multiplierText.text = "x" + pointsPerScore;
 
