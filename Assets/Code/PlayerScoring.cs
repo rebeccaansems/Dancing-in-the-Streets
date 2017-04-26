@@ -30,7 +30,7 @@ public class PlayerScoring : MonoBehaviour
             scoreStar.enabled = false;
         }
 
-            scoreText.text = score.ToString();
+        scoreText.text = score.ToString();
         multiplierText.text = "x" + pointsPerScore;
 
         if (!didScore)
@@ -78,6 +78,19 @@ public class PlayerScoring : MonoBehaviour
 
     void OnBecameInvisible()
     {
+        if (PlayerPrefs.HasKey("GamesPlayed"))
+        {
+            PlayerPrefs.SetInt("GamesPlayed", PlayerPrefs.GetInt("GamesPlayed") + 1);
+
+            if (PlayerPrefs.GetInt("GamesPlayed") % 4 == 0)
+            {
+                Advertisements.ShowAd();
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("GamesPlayed", 1);
+        }
         this.GetComponent<Leaderboard>().AddMultiplier(highestMultiplier);
     }
 }

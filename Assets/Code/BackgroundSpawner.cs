@@ -5,7 +5,7 @@ using UnityEngine;
 public class BackgroundSpawner : MonoBehaviour
 {
     public GameObject[] floorPieces, wallPieces;
-    public GameObject camera;
+    public GameObject mainCamera;
     public bool isWallSpawner;
 
     private GameObject newFloor, newWall;
@@ -26,8 +26,8 @@ public class BackgroundSpawner : MonoBehaviour
 
     void Update()
     {
-        if ((int)camera.transform.position.y % playerSpawnPosition == 0
-            && (int)camera.transform.position.y != 0)
+        if ((int)mainCamera.transform.position.y % playerSpawnPosition == 0
+            && (int)mainCamera.transform.position.y != 0)
         {
             playerSpawnPosition += 40;
             if (isWallSpawner)
