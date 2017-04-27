@@ -27,7 +27,7 @@ public class SocialFacebook : MonoBehaviour
         "Dancing in the Streets",
         "Try and beat my highest score, "+ PlayerPrefs.GetInt("Score1") +", on Dancing in the Streets!",
         new Uri(photoURL),
-        null
+        ShareCallback
         );
     }
 
@@ -38,8 +38,20 @@ public class SocialFacebook : MonoBehaviour
         "Dancing in the Streets",
         "My new highscore on Dancing in the Streets is " + PlayerPrefs.GetInt("Score1") + "! Can you beat it?",
         new Uri(photoURL),
-        null
+        ShareCallback
         );
+    }
+
+    private void ShareCallback(IShareResult result)
+    {
+        if (result.Cancelled || !String.IsNullOrEmpty(result.Error))
+        {
+            AnalyticsManager.SharedToFacebook(false);
+        }
+        else
+        {
+            AnalyticsManager.SharedToFacebook(true);
+        }
     }
 
     private void InitCallback()

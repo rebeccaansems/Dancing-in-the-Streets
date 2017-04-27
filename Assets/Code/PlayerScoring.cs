@@ -17,6 +17,7 @@ public class PlayerScoring : MonoBehaviour
     {
         playMove = GetComponent<PlayerMovement>();
         scoreStar.enabled = false;
+        AnalyticsManager.StartedGame();
     }
 
     void Update()
@@ -85,6 +86,7 @@ public class PlayerScoring : MonoBehaviour
             if (PlayerPrefs.GetInt("GamesPlayed") % 4 == 0)
             {
                 Advertisements.ShowAd();
+                AnalyticsManager.WatchedAd();
             }
         }
         else
@@ -92,5 +94,7 @@ public class PlayerScoring : MonoBehaviour
             PlayerPrefs.SetInt("GamesPlayed", 1);
         }
         this.GetComponent<Leaderboard>().AddMultiplier(highestMultiplier);
+
+        AnalyticsManager.FinishedGame(score);
     }
 }

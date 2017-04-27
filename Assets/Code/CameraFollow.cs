@@ -10,13 +10,11 @@ public class CameraFollow : MonoBehaviour
     private bool cameraIsMoving = false;
     private float startTime; 
 
-    // Use this for initialization
     void Start()
     {
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (player.transform.position.y > -2 || cameraIsMoving)

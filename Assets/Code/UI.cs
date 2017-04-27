@@ -51,6 +51,8 @@ public class UI : MonoBehaviour
 
     public void PressedHighScoresButton()
     {
+        AnalyticsManager.CheckedLeaderboard();
+
         highScoresCanvas.enabled = true;
         pauseCanvas.enabled = false;
         gameOverCanvas.enabled = false;
