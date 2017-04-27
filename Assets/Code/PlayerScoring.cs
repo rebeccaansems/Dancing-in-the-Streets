@@ -85,7 +85,7 @@ public class PlayerScoring : MonoBehaviour
 
             if (PlayerPrefs.GetInt("GamesPlayed") % 4 == 0)
             {
-                Advertisements.ShowAd();
+                AdvertisementManager.ShowAd();
                 AnalyticsManager.WatchedAd();
             }
         }

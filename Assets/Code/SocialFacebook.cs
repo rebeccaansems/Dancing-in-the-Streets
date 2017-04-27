@@ -16,7 +16,9 @@ public class SocialFacebook : MonoBehaviour
         }
         else
         {
+#if !UNITY_EDITOR
             FB.ActivateApp();
+#endif
         }
     }
 
