@@ -130,7 +130,18 @@ public class Leaderboard : MonoBehaviour
 
     public void ClearScores()
     {
-        PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteKey("Score1");
+        PlayerPrefs.DeleteKey("Score2");
+        PlayerPrefs.DeleteKey("Score3");
+        PlayerPrefs.DeleteKey("Score4");
+        PlayerPrefs.DeleteKey("Score5");
+
+        PlayerPrefs.DeleteKey("Date1");
+        PlayerPrefs.DeleteKey("Date2");
+        PlayerPrefs.DeleteKey("Date3");
+        PlayerPrefs.DeleteKey("Date4");
+        PlayerPrefs.DeleteKey("Date5");
+
         m_leaderboardScores = new List<KeyValuePair<int, string>>();
         LoadScores();
     }
