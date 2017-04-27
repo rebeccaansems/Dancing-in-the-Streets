@@ -10,9 +10,9 @@ public class AdvertisementManager : MonoBehaviour
         Debug.Log("show");
         if (Advertisement.IsReady())
         {
+            Debug.Log("shown");
             Advertisement.Show();
         }
-        Debug.Log("shown");
     }
 }
 
