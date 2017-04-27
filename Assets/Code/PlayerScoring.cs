@@ -7,6 +7,7 @@ public class PlayerScoring : MonoBehaviour
 {
     public Text scoreText, multiplierText;
     public Image scoreStar;
+    public AdvertisementManager adMan;
     public int score;
 
     private PlayerMovement playMove;
@@ -85,7 +86,7 @@ public class PlayerScoring : MonoBehaviour
 
             if (PlayerPrefs.GetInt("GamesPlayed") % 4 == 0)
             {
-                AdvertisementManager.ShowAd();
+                adMan.ShowAd();
                 AnalyticsManager.WatchedAd();
             }
         }
