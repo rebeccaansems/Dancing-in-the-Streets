@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
 
     private int numPairings;
 
-    // Use this for initialization
     void Start()
     {
         dancerGameObjectStack = new Stack<GameObject>();
@@ -24,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = walkingMan;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (dancerGameObjectStack.Count != 0)
@@ -53,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (currentDancer != null)
         {
+            this.GetComponent<PlayerScoring>().pMan.dancerLocation = currentDancer.transform.position;
             if (!isConnected)
             {
                 int difAngles = (int)(this.transform.rotation.eulerAngles.z - currentDancer.transform.rotation.eulerAngles.z) + 90;

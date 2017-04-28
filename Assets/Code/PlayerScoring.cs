@@ -8,6 +8,7 @@ public class PlayerScoring : MonoBehaviour
     public Text scoreText, multiplierText;
     public Image scoreStar;
     public AdvertisementManager adMan;
+    public PointManager pMan;
     public int score;
 
     private PlayerMovement playMove;
@@ -41,6 +42,7 @@ public class PlayerScoring : MonoBehaviour
             {
                 pointsPerScore++;
                 score += pointsPerScore;
+                pMan.SpawnPoint(pointsPerScore);
                 didScore = true;
 
                 if (highestMultiplier < pointsPerScore)
@@ -52,6 +54,7 @@ public class PlayerScoring : MonoBehaviour
             {
                 score += pointsPerScore;
                 didScore = true;
+                pMan.SpawnPoint(pointsPerScore);
             }
             else if (playMove.isCircling && !didMultiply)
             {
@@ -71,6 +74,7 @@ public class PlayerScoring : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         score -= 10;
+        pMan.SpawnPoint(-10);
         if (score < 0)
         {
             score = 0;
