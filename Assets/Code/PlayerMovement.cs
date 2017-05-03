@@ -57,6 +57,7 @@ public class PlayerMovement : MonoBehaviour
                 int difAngles = (int)(this.transform.rotation.eulerAngles.z - currentDancer.transform.rotation.eulerAngles.z) + 90;
                 if ((difAngles >= 77 && difAngles <= 103) || (difAngles >= -283 && difAngles <= -257))
                 {
+                    GetComponent<SpriteRenderer>().sprite = dancingMan;
                     isConnected = true;
                     numPairings++;
                 }
@@ -71,7 +72,6 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
-                GetComponent<SpriteRenderer>().sprite = dancingMan;
                 transform.RotateAround(currentDancer.transform.position,
                     currentDancer.GetComponent<DancerMovement>().spinClockwise ? Vector3.back : Vector3.forward,
                     currentDancer.GetComponent<DancerMovement>().spinSpeed * Time.deltaTime);
