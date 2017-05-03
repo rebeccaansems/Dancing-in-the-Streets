@@ -17,19 +17,20 @@ public class AdvertisementManager : MonoBehaviour
 
     public void ShowAd()
     {
-        StartCoroutine("Check");
+        StartCoroutine("InitializeShowAd");
     }
 
-    IEnumerator Check()
+    IEnumerator InitializeShowAd()
     {
         while (!Advertisement.isInitialized || !Advertisement.IsReady())
         {
             yield return new WaitForSeconds(0.5f);
         }
+
         if (Advertisement.IsReady())
         {
             Advertisement.Show();
-            StopCoroutine("Check");
+            StopCoroutine("InitializeShowAd");
         }
     }
 }
