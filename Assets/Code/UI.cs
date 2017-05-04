@@ -95,5 +95,12 @@ public class UI : MonoBehaviour
         Debug.Log(volume);
     }
 
+    public void RateGameButton()
+    {
+#if UNITY_IOS
+        Application.OpenURL("https://itunes.apple.com/us/app/dancing-in-the-streets/id1233410267?ls=1&mt=8");
+#endif
+    }
+
     //Dear Code, I do not understand why some letters like float change colour when I type them.; Like Why does public stay blue where bannana stays white - Mergy
 }
