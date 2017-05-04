@@ -5,7 +5,7 @@ using UnityEngine.Advertisements;
 
 public class AdvertisementManager : MonoBehaviour
 {
-    
+
     void Start()
     {
 #if UNITY_ANDROID
@@ -32,6 +32,11 @@ public class AdvertisementManager : MonoBehaviour
             Advertisement.Show();
             StopCoroutine("InitializeShowAd");
         }
+    }
+
+    private void OnApplicationQuit()
+    {
+        StopCoroutine("InitializeShowAd");
     }
 }
 

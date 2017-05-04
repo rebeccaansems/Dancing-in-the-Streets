@@ -9,12 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public Sprite walkingMan, dancingMan;
     public UI UiControls;
 
-    public int rotSpeed, moveSpeed;
+    public int rotSpeed, moveSpeed, numPairings;
     public bool isConnected, isCircling, isHitting;
 
     private GameObject currentDancer;
-
-    private int numPairings;
 
     void Start()
     {

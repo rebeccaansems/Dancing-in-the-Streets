@@ -8,6 +8,7 @@ public class Leaderboard : MonoBehaviour
 {
     public Text[] leaderboardScoresText, gameoverScoresText;
     public Text[] leaderboardDatesText, gameoverDatesText;
+    public Text highestMultiplier, highestNumPairs;
     public Text[] statsText;
 
     private List<KeyValuePair<int, string>> m_leaderboardScores;
@@ -21,6 +22,17 @@ public class Leaderboard : MonoBehaviour
     public void PressedLeaderboardButton()
     {
         m_leaderboardScores.Add(new KeyValuePair<int, string>(GetComponent<PlayerScoring>().score, DateTime.Today.ToString("dd/MM/yyyy")));
+
+        if(GetComponent<PlayerMovement>().numPairings > PlayerPrefs.GetInt("HighestPair"))
+        {
+            PlayerPrefs.SetInt("HighestPair", GetComponent<PlayerMovement>().numPairings);
+        }
+
+        if (GetComponent<PlayerScoring>().highestMultiplier > PlayerPrefs.GetInt("HighestMulti"))
+        {
+            PlayerPrefs.SetInt("HighestMulti", GetComponent<PlayerScoring>().highestMultiplier);
+        }
+
         LoadScores();
         m_leaderboardScores.Remove(new KeyValuePair<int, string>(GetComponent<PlayerScoring>().score, DateTime.Today.ToString("dd/MM/yyyy")));
     }
@@ -35,19 +47,18 @@ public class Leaderboard : MonoBehaviour
             PlayerPrefs.HasKey("Date2") ? PlayerPrefs.GetString("Date2") : DateTime.Today.ToString("dd/MM/yyyy")));
         m_leaderboardScores.Add(new KeyValuePair<int, string>(PlayerPrefs.HasKey("Score3") ? PlayerPrefs.GetInt("Score3") : 0,
             PlayerPrefs.HasKey("Date3") ? PlayerPrefs.GetString("Date3") : DateTime.Today.ToString("dd/MM/yyyy")));
-        m_leaderboardScores.Add(new KeyValuePair<int, string>(PlayerPrefs.HasKey("Score4") ? PlayerPrefs.GetInt("Score4") : 0,
-            PlayerPrefs.HasKey("Date4") ? PlayerPrefs.GetString("Date4") : DateTime.Today.ToString("dd/MM/yyyy")));
-        m_leaderboardScores.Add(new KeyValuePair<int, string>(PlayerPrefs.HasKey("Score5") ? PlayerPrefs.GetInt("Score5") : 0,
-            PlayerPrefs.HasKey("Date5") ? PlayerPrefs.GetString("Date5") : DateTime.Today.ToString("dd/MM/yyyy")));
 
-        while (m_leaderboardScores.Count > 5)
+        highestNumPairs.text = PlayerPrefs.GetInt("HighestPair").ToString();
+        highestMultiplier.text = PlayerPrefs.GetInt("HighestMulti").ToString();
+
+        while (m_leaderboardScores.Count > 3)
         {
-            m_leaderboardScores.RemoveAt(5);
+            m_leaderboardScores.RemoveAt(3);
         }
 
         m_leaderboardScores.Sort((s1, s2) => s2.Key.CompareTo(s1.Key));
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 3; i++)
         {
             if (leaderboardScoresText[i] != null)
             {
@@ -114,14 +125,10 @@ public class Leaderboard : MonoBehaviour
         PlayerPrefs.SetInt("Score1", m_leaderboardScores[0].Key);
         PlayerPrefs.SetInt("Score2", m_leaderboardScores[1].Key);
         PlayerPrefs.SetInt("Score3", m_leaderboardScores[2].Key);
-        PlayerPrefs.SetInt("Score4", m_leaderboardScores[3].Key);
-        PlayerPrefs.SetInt("Score5", m_leaderboardScores[4].Key);
 
         PlayerPrefs.SetString("Date1", m_leaderboardScores[0].Value);
         PlayerPrefs.SetString("Date2", m_leaderboardScores[1].Value);
         PlayerPrefs.SetString("Date3", m_leaderboardScores[2].Value);
-        PlayerPrefs.SetString("Date4", m_leaderboardScores[3].Value);
-        PlayerPrefs.SetString("Date5", m_leaderboardScores[4].Value);
 
         PlayerPrefs.Save();
 
@@ -133,14 +140,13 @@ public class Leaderboard : MonoBehaviour
         PlayerPrefs.DeleteKey("Score1");
         PlayerPrefs.DeleteKey("Score2");
         PlayerPrefs.DeleteKey("Score3");
-        PlayerPrefs.DeleteKey("Score4");
-        PlayerPrefs.DeleteKey("Score5");
+
+        PlayerPrefs.DeleteKey("HighestPair");
+        PlayerPrefs.DeleteKey("HighestMulti");
 
         PlayerPrefs.DeleteKey("Date1");
         PlayerPrefs.DeleteKey("Date2");
         PlayerPrefs.DeleteKey("Date3");
-        PlayerPrefs.DeleteKey("Date4");
-        PlayerPrefs.DeleteKey("Date5");
 
         m_leaderboardScores = new List<KeyValuePair<int, string>>();
         LoadScores();

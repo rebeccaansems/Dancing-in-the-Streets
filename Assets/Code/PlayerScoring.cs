@@ -9,10 +9,10 @@ public class PlayerScoring : MonoBehaviour
     public Image scoreStar;
     public AdvertisementManager adMan;
     public PointManager pMan;
-    public int score;
+    public int score, highestMultiplier = 1;
 
     private PlayerMovement playMove;
-    private int pointsPerScore = 1, highestMultiplier = 1;
+    private int pointsPerScore = 1;
     private bool didScore = false, didMultiply = false;
 
     void Start()
@@ -24,11 +24,11 @@ public class PlayerScoring : MonoBehaviour
 
     void Update()
     {
-        if (score > PlayerPrefs.GetInt("Score5") && !scoreStar.enabled)
+        if (score > PlayerPrefs.GetInt("Score3") && !scoreStar.enabled)
         {
             scoreStar.enabled = true;
         }
-        else if (score <= PlayerPrefs.GetInt("Score5") && scoreStar.enabled)
+        else if (score <= PlayerPrefs.GetInt("Score3") && scoreStar.enabled)
         {
             scoreStar.enabled = false;
         }
