@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class FloatingPoint : MonoBehaviour
 {
-    bool didPause = false;
-
     void Start()
     {
         Destroy(gameObject, this.GetComponentInChildren<Animator>().GetCurrentAnimatorStateInfo(0).length);
