@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class UI : MonoBehaviour
 {
     [Tooltip("Pause: 0, Header: 1, HighScore: 2, GameOver: 3")]
-    public Canvas pauseCanvas, headerCanvas, highScoresCanvas, gameOverCanvas;
+    public Canvas pauseCanvas, headerCanvas, highScoresCanvas, gameOverCanvas, otherApps;
     public Button pauseButton;
     public GameObject player;
 
@@ -20,6 +20,7 @@ public class UI : MonoBehaviour
         pauseCanvas.enabled = false;
         highScoresCanvas.enabled = false;
         gameOverCanvas.enabled = false;
+        otherApps.enabled = false;
         headerCanvas.enabled = true;
 
         isUIOn = pauseCanvas.enabled;
@@ -56,11 +57,23 @@ public class UI : MonoBehaviour
         highScoresCanvas.enabled = true;
         pauseCanvas.enabled = false;
         gameOverCanvas.enabled = false;
+        otherApps.enabled = false;
 
         previousCanvas = currentCanvas;
         currentCanvas = highScoresCanvas;
 
         player.GetComponent<Leaderboard>().PressedLeaderboardButton();
+    }
+
+    public void PressedOtherAppsButton()
+    {
+        otherApps.enabled = true;
+        highScoresCanvas.enabled = false;
+        pauseCanvas.enabled = false;
+        gameOverCanvas.enabled = false;
+
+        previousCanvas = currentCanvas;
+        currentCanvas = otherApps;
     }
 
     public void PressedBackButton()
@@ -99,6 +112,13 @@ public class UI : MonoBehaviour
     {
 #if UNITY_IOS
         Application.OpenURL("https://itunes.apple.com/us/app/dancing-in-the-streets/id1233410267?ls=1&mt=8");
+#endif
+    }
+
+    public void OpenOtherApp(string url)
+    {
+#if UNITY_IOS
+        Application.OpenURL(url);
 #endif
     }
 
