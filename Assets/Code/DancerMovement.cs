@@ -10,7 +10,7 @@ public class DancerMovement : MonoBehaviour
     public Sprite armsIn, armsOut;
 
     public int spinSpeed, minSpinSpeed, maxSpinSpeed;
-    public bool spinClockwise;
+    public bool spinClockwise, armsAreOut;
 
     private int spriteIndex;
     private bool isVisible;
@@ -20,12 +20,13 @@ public class DancerMovement : MonoBehaviour
         danceDatabase = GameObject.Find("Dancer Spawner").GetComponent<DancerDatabase>();
         player = GameObject.Find("Player");
         playerMovement = player.GetComponent<PlayerMovement>();
+        armsAreOut = false;
 
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
         spinSpeed = Random.Range(150, 400);
         spinClockwise = Random.Range(0, 2) == 0;
         spriteIndex = Random.Range(0, danceDatabase.armsIn.Count);
-        GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
+        GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
     }
 
     void Update()
@@ -33,19 +34,6 @@ public class DancerMovement : MonoBehaviour
         if (isVisible)
         {
             transform.Rotate(spinClockwise ? Vector3.back : Vector3.forward, spinSpeed * Time.deltaTime);
-
-            if (Vector3.Distance(transform.position, player.transform.position) <= 1.05)
-            {
-                int difAngles = (int)(this.transform.rotation.eulerAngles.z - player.transform.rotation.eulerAngles.z) + 90;
-                if ((difAngles >= 77 && difAngles <= 103) || (difAngles >= -283 && difAngles <= -257))
-                {
-                    GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
-                }
-            }
-            else
-            {
-                GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
-            }
         }
 
         if(player.transform.position.y > this.transform.position.y + 20)
@@ -70,7 +58,19 @@ public class DancerMovement : MonoBehaviour
             }
         }
     }
-    
+
+    public void ExtendArms()
+    {
+        GetComponent<SpriteRenderer>().sprite = danceDatabase.armsOut[spriteIndex];
+        armsAreOut = true;
+    }
+
+    public void RetractArms()
+    {
+        GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
+        armsAreOut = false;
+    }
+
     private void OnBecameVisible()
     {
         isVisible = true;

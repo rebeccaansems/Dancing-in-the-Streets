@@ -35,7 +35,11 @@ public class PlayerMovement : MonoBehaviour
 
             float moveStep = moveSpeed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, dancerGameObjectStack.Peek().transform.position, moveStep);
-            GetComponent<SpriteRenderer>().sprite = walkingMan;
+
+            if (GetComponent<SpriteRenderer>().sprite != walkingMan)
+            {
+                GetComponent<SpriteRenderer>().sprite = walkingMan;
+            }
             isConnected = false;
 
             if (Vector3.Distance(transform.position, dancerGameObjectStack.Peek().transform.position) <= 1.05)
@@ -57,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
                 int difAngles = (int)(this.transform.rotation.eulerAngles.z - currentDancer.transform.rotation.eulerAngles.z) + 90;
                 if ((difAngles >= 77 && difAngles <= 103) || (difAngles >= -283 && difAngles <= -257))
                 {
+                    currentDancer.GetComponent<DancerMovement>().ExtendArms();
                     GetComponent<SpriteRenderer>().sprite = dancingMan;
                     isConnected = true;
                     numPairings++;
@@ -64,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
                 else
                 {
                     isCircling = true;
+                    currentDancer.GetComponent<DancerMovement>().RetractArms();
 
                     transform.RotateAround(currentDancer.transform.position,
                         currentDancer.GetComponent<DancerMovement>().spinClockwise ? Vector3.forward : Vector3.back,
@@ -76,6 +82,11 @@ public class PlayerMovement : MonoBehaviour
                     currentDancer.GetComponent<DancerMovement>().spinClockwise ? Vector3.back : Vector3.forward,
                     currentDancer.GetComponent<DancerMovement>().spinSpeed * Time.deltaTime);
             }
+        }
+
+        if (previousDancerGameObjectStack.Count != 0 && previousDancerGameObjectStack.Peek().GetComponent<DancerMovement>().armsAreOut && !isConnected)
+        {
+            previousDancerGameObjectStack.Peek().GetComponent<DancerMovement>().RetractArms();
         }
     }
 
