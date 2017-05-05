@@ -14,16 +14,16 @@ public class DancerMovement : MonoBehaviour
 
     private int spriteIndex;
     private bool isVisible;
-    
+
     void Start()
-    { 
+    {
         danceDatabase = GameObject.Find("Dancer Spawner").GetComponent<DancerDatabase>();
         player = GameObject.Find("Player");
         playerMovement = player.GetComponent<PlayerMovement>();
         armsAreOut = false;
 
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
-        spinSpeed = Random.Range(150, 400);
+        spinSpeed = Random.Range((int)Camera.main.transform.position.y + 150, (int)Camera.main.transform.position.y + 400);
         spinClockwise = Random.Range(0, 2) == 0;
         spriteIndex = Random.Range(0, danceDatabase.armsIn.Count);
         GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
@@ -36,7 +36,7 @@ public class DancerMovement : MonoBehaviour
             transform.Rotate(spinClockwise ? Vector3.back : Vector3.forward, spinSpeed * Time.deltaTime);
         }
 
-        if(player.transform.position.y > this.transform.position.y + 20)
+        if (player.transform.position.y > this.transform.position.y + 20)
         {
             Destroy(this.gameObject);
         }

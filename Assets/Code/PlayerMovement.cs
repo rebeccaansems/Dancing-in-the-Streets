@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
             float rot_z = Mathf.Atan2(rotDiff.y, rotDiff.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
-            float moveStep = moveSpeed * Time.deltaTime;
+            float moveStep = (moveSpeed + (Camera.main.transform.position.y / 50)) * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, dancerGameObjectStack.Peek().transform.position, moveStep);
 
             if (GetComponent<SpriteRenderer>().sprite != walkingMan)
