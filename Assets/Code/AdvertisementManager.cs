@@ -33,10 +33,5 @@ public class AdvertisementManager : MonoBehaviour
             StopCoroutine("InitializeShowAd");
         }
     }
-
-    private void OnApplicationQuit()
-    {
-        StopCoroutine("InitializeShowAd");
-    }
 }
 

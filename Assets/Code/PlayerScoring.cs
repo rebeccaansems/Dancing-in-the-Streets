@@ -90,8 +90,11 @@ public class PlayerScoring : MonoBehaviour
 
             if (PlayerPrefs.GetInt("GamesPlayed") % 4 == 0)
             {
-                adMan.ShowAd();
-                AnalyticsManager.WatchedAd();
+                if(adMan != null)
+                {
+                    adMan.ShowAd();
+                    AnalyticsManager.WatchedAd();
+                }
             }
         }
         else
