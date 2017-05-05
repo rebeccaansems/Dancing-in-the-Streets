@@ -74,7 +74,9 @@ public class PlayerScoring : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         score -= 10;
+        this.GetComponent<PlayerScoring>().pMan.dancerLocation = this.transform.position;
         pMan.SpawnPoint(-10);
+
         if (score < 0)
         {
             score = 0;
@@ -90,7 +92,7 @@ public class PlayerScoring : MonoBehaviour
 
             if (PlayerPrefs.GetInt("GamesPlayed") % 4 == 0)
             {
-                if(adMan != null)
+                if (adMan != null)
                 {
                     adMan.ShowAd();
                     AnalyticsManager.WatchedAd();

@@ -36,10 +36,4 @@ public class DancerDatabase : MonoBehaviour
         armsIn = new List<Sprite>(allColorSchemesArmsIn[index]);
         armsOut = new List<Sprite>(allColorSchemesArmsOut[index]);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

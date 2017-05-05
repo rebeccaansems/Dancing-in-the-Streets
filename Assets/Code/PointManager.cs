@@ -12,5 +12,9 @@ public class PointManager : MonoBehaviour
         GameObject newFloatPoint = Instantiate(floatPoint, floatPointParent.transform);
         newFloatPoint.GetComponentInChildren<TextMesh>().text = point.ToString();
         newFloatPoint.transform.position = dancerLocation;
+        if(point < 0)
+        {
+            newFloatPoint.GetComponentInChildren<TextMesh>().color = new Color32(237, 45, 61, 255);
+        }
     }
 }
