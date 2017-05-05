@@ -6,13 +6,14 @@ public class BackgroundSpawner : MonoBehaviour
 {
     public GameObject[] wallPieces;
     public GameObject floorPiece, leftWallAccents;
-    public Sprite[] floorSprites, leftWallAccentsSprites;
+    public Sprite[] floorSpritesLvl1, floorSpritesLvl2, floorSpritesLvl3, floorSpritesLvl4, floorSpritesLvl5, floorSpritesLvl6, leftWallAccentsSprites;
     public GameObject mainCamera;
     public bool isWallSpawner;
 
     private GameObject newFloor, newWall, newLeftWallAccent;
     private Queue<GameObject> leftWallAccentQueue, wallQueueLeft, wallQueueRight, floorQueue;
-    private float currentY = -4, currentLeftY = 0;
+    private Sprite[] currentFloor;
+    private float currentY = -4, currentLeftY = 60;
     private int playerSpawnPosition = 40;
 
     void Start()
@@ -24,11 +25,11 @@ public class BackgroundSpawner : MonoBehaviour
 
         if (isWallSpawner)
         {
-            SpawnWallBlock(6);
+            SpawnWallBlock(6, 0);
         }
         else
         {
-            SpawnFloorBlock(30);
+            SpawnFloorBlock(30, 0);
         }
     }
 
@@ -40,11 +41,11 @@ public class BackgroundSpawner : MonoBehaviour
             playerSpawnPosition += 40;
             if (isWallSpawner)
             {
-                SpawnWallBlock(4);
+                SpawnWallBlock(4, (int)mainCamera.transform.position.y % playerSpawnPosition);
             }
             else
             {
-                SpawnFloorBlock(20);
+                SpawnFloorBlock(20, (int)mainCamera.transform.position.y % playerSpawnPosition);
             }
         }
 
@@ -68,30 +69,59 @@ public class BackgroundSpawner : MonoBehaviour
 
     }
 
-    void SpawnFloorBlock(int repeat)
+    void SpawnFloorBlock(int repeat, int level)
     {
+        if (level > 40 * 12)
+        {
+            currentFloor = floorSpritesLvl6;
+        }
+        else if (level > 40 * 9)
+        {
+            currentFloor = floorSpritesLvl5;
+        }
+        else if (level > 40 * 8)
+        {
+            currentFloor = floorSpritesLvl4;
+        }
+        else if (level > 40 * 6)
+        {
+            currentFloor = floorSpritesLvl3;
+        }
+        else if (level > 40 * 4)
+        {
+            currentFloor = floorSpritesLvl1;
+        }
+        else if (level > 40 * 2)
+        {
+            currentFloor = floorSpritesLvl2;
+        }
+        else
+        {
+            currentFloor = floorSpritesLvl1;
+        }
+
         for (int i = 0; i < repeat; i++)
         {
             newFloor = Instantiate(floorPiece, this.transform);
             newFloor.transform.position = new Vector2(-2, currentY);
-            newFloor.GetComponent<SpriteRenderer>().sprite = floorSprites[Random.Range(0, floorSprites.Length)];
+            newFloor.GetComponent<SpriteRenderer>().sprite = currentFloor[Random.Range(0, currentFloor.Length)];
             floorQueue.Enqueue(newFloor);
 
             newFloor = Instantiate(floorPiece, this.transform);
             newFloor.transform.position = new Vector2(0.333f, currentY);
-            newFloor.GetComponent<SpriteRenderer>().sprite = floorSprites[Random.Range(0, floorSprites.Length)];
+            newFloor.GetComponent<SpriteRenderer>().sprite = currentFloor[Random.Range(0, currentFloor.Length)];
             floorQueue.Enqueue(newFloor);
 
             newFloor = Instantiate(floorPiece, this.transform);
             newFloor.transform.position = new Vector2(2.666f, currentY);
-            newFloor.GetComponent<SpriteRenderer>().sprite = floorSprites[Random.Range(0, floorSprites.Length)];
+            newFloor.GetComponent<SpriteRenderer>().sprite = currentFloor[Random.Range(0, currentFloor.Length)];
             floorQueue.Enqueue(newFloor);
 
             currentY += 2.25f;
         }
     }
 
-    void SpawnWallBlock(int repeat)
+    void SpawnWallBlock(int repeat, int level)
     {
         for (int i = 0; i < repeat; i++)
         {
@@ -106,17 +136,19 @@ public class BackgroundSpawner : MonoBehaviour
             currentY += 12f;
         }
 
-        for (int i = 0; i < repeat*2.5f; i++)
+        if (level > 3)
         {
-            if (Random.Range(0, 10) > 7)
+            for (int i = 0; i < repeat * 2.5f; i++)
             {
-                newLeftWallAccent = Instantiate(leftWallAccents, this.transform);
-                newLeftWallAccent.GetComponent<SpriteRenderer>().sprite = leftWallAccentsSprites[Random.Range(0, leftWallAccentsSprites.Length)];
-                newLeftWallAccent.transform.position = new Vector2(-2.85f, currentLeftY);
-                leftWallAccentQueue.Enqueue(newLeftWallAccent);
+                if (Random.Range(0, 10) > 3)
+                {
+                    newLeftWallAccent = Instantiate(leftWallAccents, this.transform);
+                    newLeftWallAccent.GetComponent<SpriteRenderer>().sprite = leftWallAccentsSprites[Random.Range(0, leftWallAccentsSprites.Length)];
+                    newLeftWallAccent.transform.position = new Vector2(-2.85f, currentLeftY);
+                    leftWallAccentQueue.Enqueue(newLeftWallAccent);
+                }
                 currentLeftY += 4;
             }
-            currentLeftY += 4;
         }
     }
 }
