@@ -13,7 +13,7 @@ public class BackgroundSpawner : MonoBehaviour
     private GameObject newFloor, newWall, newLeftWallAccent;
     private Queue<GameObject> leftWallAccentQueue, wallQueueLeft, wallQueueRight, floorQueue;
     private Sprite[] currentFloor;
-    private float currentY = -4, currentLeftY = 60;
+    private float currentY = -4, currentLeftY = 160;
     private int playerSpawnPosition = 40;
 
     void Start()
@@ -136,7 +136,7 @@ public class BackgroundSpawner : MonoBehaviour
             currentY += 12f;
         }
 
-        if (level > 3)
+        if (level > 40*2 && level < 5)
         {
             for (int i = 0; i < repeat * 2.5f; i++)
             {

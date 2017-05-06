@@ -1,15 +1,13 @@
 fileFormatVersion: 2
-guid: 233f72d722f88694faf43ed029000851
-timeCreated: 1493932940
+guid: 8e3884b58f351084faec117e3cd191e7
+timeCreated: 1494043592
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Shop Awnings_0
-    21300002: Shop Awnings_1
-    21300004: Shop Awnings_2
-    21300006: Shop Awnings_3
-    21300008: Shop Awnings_4
-    21300010: Shop Awnings_5
+    21300000: Walls_0
+    21300002: Walls_1
+    21300004: Walls_2
+    21300006: Walls_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -46,7 +44,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 190
+  spritePixelsToUnits: 150
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -92,78 +90,52 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shop Awnings_0
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 1603
-        width: 310
-        height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Shop Awnings_1
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 1603
-        width: 310
-        height: 760
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Shop Awnings_2
+      name: Walls_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 812
-        width: 310
-        height: 761
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Shop Awnings_3
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 812
-        width: 310
-        height: 761
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Shop Awnings_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 20
-        width: 310
-        height: 762
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Shop Awnings_5
-      rect:
-        serializedVersion: 2
-        x: 456
         y: 0
-        width: 310
-        height: 761
+        width: 179.25
+        height: 2668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walls_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 179.25
+        height: 2668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walls_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 179.25
+        height: 2668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Walls_3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 0
+        width: 179.25
+        height: 2668
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
