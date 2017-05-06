@@ -65,6 +65,8 @@ public class SpawnWall : MonoBehaviour
 
     void Spawn()
     {
+        currentWallY += 17.77f;
+
         newWall = Instantiate(wall, this.transform);
         newWall.transform.position = new Vector2(-3.1f, currentWallY);
         newWall.GetComponent<SpriteRenderer>().sprite = wallSprites[Random.Range(0, wallSprites.Length / 2)];
@@ -74,12 +76,12 @@ public class SpawnWall : MonoBehaviour
         newWall.transform.position = new Vector2(3.1f, currentWallY);
         newWall.GetComponent<SpriteRenderer>().sprite = wallSprites[Random.Range(wallSprites.Length / 2, wallSprites.Length)];
         wallList.Add(newWall);
-
-        currentWallY += 17.77f;
     }
 
     void SpawnAccent()
     {
+        currentWallAccentY += 4;
+
         if (Random.Range(0, 10) > 5)
         {
             if (Random.Range(0, 2) == 1)
@@ -99,6 +101,5 @@ public class SpawnWall : MonoBehaviour
                 wallAccentList.Add(newWallAccent);
             }
         }
-        currentWallAccentY += 4;
     }
 }

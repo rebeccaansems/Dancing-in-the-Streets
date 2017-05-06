@@ -27,7 +27,7 @@ public class SpawnGround : MonoBehaviour
 
     private void Update()
     {
-        if (Camera.main.transform.position.y + 4 > groundList[groundList.Count - 1].transform.position.y)
+        if (Camera.main.transform.position.y + 6 > groundList[groundList.Count - 1].transform.position.y)
         {
             Spawn();
         }
@@ -50,6 +50,8 @@ public class SpawnGround : MonoBehaviour
 
     private void Spawn()
     {
+        currentGroundY += 2.25f;
+
         newGround = Instantiate(ground, this.transform);
         newGround.transform.position = new Vector2(-2, currentGroundY);
         newGround.GetComponent<SpriteRenderer>().sprite = groundSprites[Random.Range(currentLevel * 3, currentLevel * 3 + 3)];
@@ -64,7 +66,5 @@ public class SpawnGround : MonoBehaviour
         newGround.transform.position = new Vector2(2.666f, currentGroundY);
         newGround.GetComponent<SpriteRenderer>().sprite = groundSprites[Random.Range(currentLevel * 3, currentLevel * 3 + 3)];
         groundList.Add(newGround);
-
-        currentGroundY += 2.25f;
     }
 }
