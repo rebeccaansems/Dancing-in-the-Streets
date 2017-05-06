@@ -50,7 +50,7 @@ public class SpawnWall : MonoBehaviour
 
         if (wallAccentList.Count != 0)
         {
-            if (Camera.main.transform.position.y + 4 > wallAccentList[wallAccentList.Count - 1].transform.position.y)
+            if (Camera.main.transform.position.y + 6 > wallAccentList[wallAccentList.Count - 1].transform.position.y)
             {
                 SpawnAccent();
             }
