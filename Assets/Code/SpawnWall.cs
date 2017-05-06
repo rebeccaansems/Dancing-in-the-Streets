@@ -6,7 +6,7 @@ public class SpawnWall : MonoBehaviour
 {
     public GameObject wall, wallAccent;
     public GameObject[] baseWalls, baseAccents;
-    public Sprite[] wallSprites, wallAccentSprites;
+    public Sprite[] wallSprites, wallAccentSprites, wallAccentAdditionSprites;
 
     private GameObject newWall, newWallAccent;
     private List<GameObject> wallList, wallAccentList;
@@ -89,6 +89,7 @@ public class SpawnWall : MonoBehaviour
                 newWallAccent = Instantiate(wallAccent, this.transform);
                 newWallAccent.transform.position = new Vector2(-2.8f, currentWallAccentY);
                 newWallAccent.GetComponent<SpriteRenderer>().sprite = wallAccentSprites[Random.Range(0, wallAccentSprites.Length / 2)];
+                newWallAccent.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = wallAccentAdditionSprites[0];
 
                 wallAccentList.Add(newWallAccent);
             }
@@ -97,6 +98,7 @@ public class SpawnWall : MonoBehaviour
                 newWallAccent = Instantiate(wallAccent, this.transform);
                 newWallAccent.transform.position = new Vector2(2.8f, currentWallAccentY);
                 newWallAccent.GetComponent<SpriteRenderer>().sprite = wallAccentSprites[Random.Range(wallAccentSprites.Length / 2, wallAccentSprites.Length)];
+                newWallAccent.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = wallAccentAdditionSprites[1];
 
                 wallAccentList.Add(newWallAccent);
             }
