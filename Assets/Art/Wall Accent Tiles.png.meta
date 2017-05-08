@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bf79ec9524b8eeb44a37df027204cee5
-timeCreated: 1494044684
+timeCreated: 1494088240
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,10 @@ TextureImporter:
     21300026: Wall Accent Tiles_13
     21300028: Wall Accent Tiles_14
     21300030: Wall Accent Tiles_15
+    21300032: Wall Accent Tiles_16
+    21300034: Wall Accent Tiles_17
+    21300036: Wall Accent Tiles_18
+    21300038: Wall Accent Tiles_19
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -146,7 +150,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1048
         y: 2397
-        width: 309
+        width: 311
         height: 761
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,6 +159,19 @@ TextureImporter:
       tessellationDetail: 0
     - serializedVersion: 2
       name: Wall Accent Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 2397
+        width: 311
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Wall Accent Tiles_5
       rect:
         serializedVersion: 2
         x: 0
@@ -167,23 +184,10 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall Accent Tiles_5
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 1597
-        width: 311
-        height: 763
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Wall Accent Tiles_6
       rect:
         serializedVersion: 2
-        x: 698
+        x: 348
         y: 1597
         width: 311
         height: 763
@@ -196,9 +200,9 @@ TextureImporter:
       name: Wall Accent Tiles_7
       rect:
         serializedVersion: 2
-        x: 1048
+        x: 698
         y: 1597
-        width: 309
+        width: 311
         height: 763
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -209,10 +213,10 @@ TextureImporter:
       name: Wall Accent Tiles_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 798
-        width: 309
-        height: 762
+        x: 1048
+        y: 1597
+        width: 311
+        height: 763
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +226,10 @@ TextureImporter:
       name: Wall Accent Tiles_9
       rect:
         serializedVersion: 2
-        x: 348
-        y: 798
+        x: 1398
+        y: 1597
         width: 311
-        height: 762
+        height: 763
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,9 +239,9 @@ TextureImporter:
       name: Wall Accent Tiles_10
       rect:
         serializedVersion: 2
-        x: 698
+        x: 0
         y: 798
-        width: 311
+        width: 309
         height: 762
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -248,7 +252,46 @@ TextureImporter:
       name: Wall Accent Tiles_11
       rect:
         serializedVersion: 2
+        x: 348
+        y: 798
+        width: 311
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Wall Accent Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 798
+        width: 311
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Wall Accent Tiles_13
+      rect:
+        serializedVersion: 2
         x: 1048
+        y: 798
+        width: 311
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Wall Accent Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 1401
         y: 798
         width: 309
         height: 762
@@ -258,7 +301,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall Accent Tiles_12
+      name: Wall Accent Tiles_15
       rect:
         serializedVersion: 2
         x: 0
@@ -271,7 +314,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall Accent Tiles_13
+      name: Wall Accent Tiles_16
       rect:
         serializedVersion: 2
         x: 348
@@ -284,7 +327,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall Accent Tiles_14
+      name: Wall Accent Tiles_17
       rect:
         serializedVersion: 2
         x: 698
@@ -297,12 +340,25 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Wall Accent Tiles_15
+      name: Wall Accent Tiles_18
       rect:
         serializedVersion: 2
         x: 1048
         y: 0
-        width: 309
+        width: 311
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Wall Accent Tiles_19
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 0
+        width: 311
         height: 759
       alignment: 0
       pivot: {x: 0, y: 0}

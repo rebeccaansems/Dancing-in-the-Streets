@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class DancerMovement : MonoBehaviour
 {
-    public GameObject player;
+    public GameObject player, tutorialCircle;
     public PlayerMovement playerMovement;
     public DancerDatabase danceDatabase;
     public Sprite armsIn, armsOut;
 
     public int spinSpeed, minSpinSpeed, maxSpinSpeed;
-    public bool spinClockwise, armsAreOut;
+    public bool spinClockwise, armsAreOut, hasTutorial, tutorialOn = true;
 
     private int spriteIndex;
     private bool isVisible;
@@ -27,6 +27,11 @@ public class DancerMovement : MonoBehaviour
         spinClockwise = Random.Range(0, 2) == 0;
         spriteIndex = Random.Range(0, danceDatabase.armsIn.Count);
         GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];
+
+        if (!hasTutorial)
+        {
+            Destroy(transform.GetChild(0).gameObject);
+        }
     }
 
     void Update()
@@ -39,6 +44,15 @@ public class DancerMovement : MonoBehaviour
         if (player.transform.position.y > this.transform.position.y + 20)
         {
             Destroy(this.gameObject);
+        }
+
+        if (hasTutorial && tutorialOn)
+        {
+            this.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
+        }
+        else if (hasTutorial)
+        {
+            this.transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 
