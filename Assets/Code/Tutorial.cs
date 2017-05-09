@@ -30,29 +30,32 @@ public class Tutorial : MonoBehaviour
 
     void Update()
     { 
+        //player is circling dancer 1
         if (player.GetComponent<PlayerMovement>().isCircling&& dancingFirst == false && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
-        {
-            secondDancer.GetComponent<DancerMovement>().tutorialOn = true;
-
-            dancingFirst = true;
-        }
-        else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == true && dancingSecond == false && completedFirst == false && completedSecond == false && !playerNotCircling)
         {
             firstDancer.GetComponent<DancerMovement>().tutorialOn = false;
 
+            dancingFirst = true;
+        }
+        //player is connected with dancer 1
+        else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == true && dancingSecond == false && completedFirst == false && completedSecond == false && !playerNotCircling)
+        {
+            secondDancer.GetComponent<DancerMovement>().tutorialOn = true;
             dancingFirst = false;
             completedFirst = true;
         }
+        //player is circling dancer 2
         else if (player.GetComponent<PlayerMovement>().isCircling && dancingFirst == false && dancingSecond == false && completedFirst == true && completedSecond == false && playerNotCircling)
         {
+            secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
             dancingSecond = true;
         }
+        //player is connected with dancer 2
         else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == false && dancingSecond == true && completedFirst == true && completedSecond == false && !playerNotCircling)
         {
-            secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
-
             completedSecond = true;
         }
+        //player is connected with dancer 1 without circling first
         else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == false && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
         {
             firstDancer.GetComponent<DancerMovement>().tutorialOn = false;
@@ -60,14 +63,15 @@ public class Tutorial : MonoBehaviour
 
             dancingFirst = true;
         }
+        //player is walking between dancer 1 and dancer 2
         else if(!player.GetComponent<PlayerMovement>().isConnected && dancingFirst == true && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
         {
             dancingFirst = false;
             completedFirst = true;
         }
+        //player is connected with dancer 2 without circling first
         else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == false && dancingSecond == false && completedFirst == true && completedSecond == false && playerNotCircling)
         {
-            firstDancer.GetComponent<DancerMovement>().tutorialOn = false;
             secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
 
             completedSecond = true;
