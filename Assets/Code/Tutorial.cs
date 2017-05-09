@@ -15,9 +15,6 @@ public class Tutorial : MonoBehaviour
         firstDancer = this.transform.GetChild(0).GetChild(0).gameObject;
         secondDancer = this.transform.GetChild(0).GetChild(1).gameObject;
 
-        firstDancer.GetComponent<DancerMovement>().spinSpeed = 75;
-        secondDancer.GetComponent<DancerMovement>().spinSpeed = 75;
-
         firstDancer.GetComponent<DancerMovement>().hasTutorial = true;
         secondDancer.GetComponent<DancerMovement>().hasTutorial = true;
 
@@ -25,31 +22,55 @@ public class Tutorial : MonoBehaviour
         secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
     }
 
+    private void Start()
+    {
+        firstDancer.GetComponent<DancerMovement>().spinSpeed = 150;
+        secondDancer.GetComponent<DancerMovement>().spinSpeed = 150;
+    }
+
     void Update()
     { 
         if (player.GetComponent<PlayerMovement>().isCircling&& dancingFirst == false && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
         {
             secondDancer.GetComponent<DancerMovement>().tutorialOn = true;
+
             dancingFirst = true;
-            Debug.Log(1);
         }
         else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == true && dancingSecond == false && completedFirst == false && completedSecond == false && !playerNotCircling)
         {
             firstDancer.GetComponent<DancerMovement>().tutorialOn = false;
+
             dancingFirst = false;
             completedFirst = true;
-            Debug.Log(2);
         }
         else if (player.GetComponent<PlayerMovement>().isCircling && dancingFirst == false && dancingSecond == false && completedFirst == true && completedSecond == false && playerNotCircling)
         {
-            Debug.Log(3);
             dancingSecond = true;
         }
         else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == false && dancingSecond == true && completedFirst == true && completedSecond == false && !playerNotCircling)
         {
             secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
+
             completedSecond = true;
-            Debug.Log(4);
+        }
+        else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == false && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
+        {
+            firstDancer.GetComponent<DancerMovement>().tutorialOn = false;
+            secondDancer.GetComponent<DancerMovement>().tutorialOn = true;
+
+            dancingFirst = true;
+        }
+        else if(!player.GetComponent<PlayerMovement>().isConnected && dancingFirst == true && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
+        {
+            dancingFirst = false;
+            completedFirst = true;
+        }
+        else if (player.GetComponent<PlayerMovement>().isConnected && dancingFirst == false && dancingSecond == false && completedFirst == true && completedSecond == false && playerNotCircling)
+        {
+            firstDancer.GetComponent<DancerMovement>().tutorialOn = false;
+            secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
+
+            completedSecond = true;
         }
 
         if (player.GetComponent<PlayerMovement>().isCircling)
