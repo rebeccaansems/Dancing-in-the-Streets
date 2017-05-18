@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DancerMovement : MonoBehaviour
 {
-    public GameObject player, tutorialCircle, tutorialPointer;
+    public GameObject mainCamera, player, tutorialCircle, tutorialPointer;
     public PlayerMovement playerMovement;
     public DancerDatabase danceDatabase;
     public Sprite armsIn, armsOut;
@@ -21,11 +21,12 @@ public class DancerMovement : MonoBehaviour
     {
         danceDatabase = GameObject.Find("Dancer Spawner").GetComponent<DancerDatabase>();
         player = GameObject.Find("Player");
+        mainCamera = GameObject.Find("Main Camera");
         playerMovement = player.GetComponent<PlayerMovement>();
         armsAreOut = false;
 
         transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
-        spinSpeed = Random.Range((int)Camera.main.transform.position.y + 150, (int)Camera.main.transform.position.y + 400);
+        spinSpeed = Random.Range((int)mainCamera.transform.position.y + 150, (int)mainCamera.transform.position.y + 400);
         spinClockwise = Random.Range(0, 2) == 0;
         spriteIndex = Random.Range(0, danceDatabase.armsIn.Count);
         GetComponent<SpriteRenderer>().sprite = danceDatabase.armsIn[spriteIndex];

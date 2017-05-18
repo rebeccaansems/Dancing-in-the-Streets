@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (dancerGameObjectStack.Count != 0)
+        if (dancerGameObjectStack.Count != 0 && Camera.main != null)
         {
             currentDancer = null;
             Vector3 rotDiff = dancerGameObjectStack.Peek().transform.position - transform.position;

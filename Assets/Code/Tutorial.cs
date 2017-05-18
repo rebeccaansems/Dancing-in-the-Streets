@@ -9,7 +9,7 @@ public class Tutorial : MonoBehaviour
     private GameObject firstDancer, secondDancer;
     private bool dancingFirst = false, dancingSecond = false, completedFirst = false, completedSecond = false, playerNotCircling = true;
 
-    void Awake()
+    void Start()
     {
         player = GameObject.Find("Player");
         firstDancer = this.transform.GetChild(0).GetChild(0).gameObject;
@@ -20,10 +20,7 @@ public class Tutorial : MonoBehaviour
 
         firstDancer.GetComponent<DancerMovement>().tutorialOn = true;
         secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
-    }
 
-    private void Start()
-    {
         firstDancer.GetComponent<DancerMovement>().spinSpeed = 150;
         secondDancer.GetComponent<DancerMovement>().spinSpeed = 150;
     }
