@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject mainCamera, dancerSpawner, groundSpawner, wallSpawner, menuItems;
+    public GameObject mainCamera, dancerSpawner, groundSpawner, wallSpawner, menuItems, mainUI;
 
     public bool cameraCanMove = false;
 
@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
         groundSpawner.SetActive(false);
         wallSpawner.SetActive(false);
         mainCamera.SetActive(false);
+        mainUI.SetActive(false);
     }
 
     private void Update()
@@ -29,6 +30,7 @@ public class MainMenu : MonoBehaviour
                 mainCamera.GetComponent<Camera>().enabled = true;
                 groundSpawner.SetActive(true);
                 wallSpawner.SetActive(true);
+                mainUI.SetActive(true);
                 Destroy(menuItems.gameObject);
                 Destroy(this.gameObject);
             }
