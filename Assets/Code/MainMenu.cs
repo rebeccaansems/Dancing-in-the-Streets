@@ -10,8 +10,7 @@ public class MainMenu : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log(PlayerPrefs.GetInt("menuOn"));
-        if (PlayerPrefs.GetInt("menuOn") == 2)
+        if (!PlayerPrefs.HasKey("menuOn") || PlayerPrefs.GetInt("menuOn") == 1)
         {
             mainCamera.GetComponent<Camera>().enabled = false;
             dancerSpawner.SetActive(false);
@@ -35,6 +34,7 @@ public class MainMenu : MonoBehaviour
     {
         if (cameraCanMove)
         {
+            UI.isUIOn = true;
             float step = 2 * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, mainCamera.transform.position, step);
 
@@ -45,6 +45,7 @@ public class MainMenu : MonoBehaviour
                 wallSpawner.SetActive(true);
                 Destroy(menuItems.gameObject);
                 UIheader.SetActive(true);
+                UI.isUIOn = false;
 
                 Destroy(this.gameObject);
             }

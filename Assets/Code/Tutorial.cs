@@ -11,8 +11,9 @@ public class Tutorial : MonoBehaviour
 
     void Start()
     {
-        if (PlayerPrefs.GetInt("tutorialsOn") == 1)
+        if (!PlayerPrefs.HasKey("tutorialsOn") || PlayerPrefs.GetInt("tutorialsOn") == 0)
         {
+            PlayerPrefs.SetInt("tutorialsOn", 1);
             player = GameObject.Find("Player");
             firstDancer = this.transform.GetChild(0).GetChild(0).gameObject;
             secondDancer = this.transform.GetChild(0).GetChild(1).gameObject;
@@ -28,6 +29,15 @@ public class Tutorial : MonoBehaviour
         }
         else
         {
+            firstDancer = this.transform.GetChild(0).GetChild(0).gameObject;
+            secondDancer = this.transform.GetChild(0).GetChild(1).gameObject;
+
+            firstDancer.GetComponent<DancerMovement>().hasTutorial = false;
+            secondDancer.GetComponent<DancerMovement>().hasTutorial = false;
+
+            firstDancer.GetComponent<DancerMovement>().tutorialOn = false;
+            secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
+
             Destroy(GetComponent<Tutorial>());
         }
     }

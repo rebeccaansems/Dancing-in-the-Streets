@@ -12,7 +12,7 @@ public class MenuDancerMovement : MonoBehaviour
 
     void Start()
     {
-        if (PlayerPrefs.GetInt("menuOn") == 2)
+        if (!PlayerPrefs.HasKey("menuOn") || PlayerPrefs.GetInt("menuOn") == 1)
         {
             transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
             if (isPlayButton)
