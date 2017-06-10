@@ -51,7 +51,7 @@ public class Audio : MonoBehaviour
 
     public void PlayButtonClick()
     {
-        aud.clip = negativeAudioClips[Random.Range(0, negativeAudioClips.Length)];
+        aud.clip = buttonClick;
         aud.Play();
     }
 }
