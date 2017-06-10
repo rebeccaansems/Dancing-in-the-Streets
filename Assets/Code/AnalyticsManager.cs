@@ -39,6 +39,7 @@ public class AnalyticsManager : MonoBehaviour
         PlayerPrefs.SetInt("TotalNumFacebookShares", totalNumFacebookShares);
         PlayerPrefs.SetInt("TotalNumGames", totalNumGames);
         PlayerPrefs.SetInt("TotalNumSessions", totalNumSessions);
+        
 
         SendGeneralEvent("QuitGame");
         SendGameplayEvent("QuitGame", -1);

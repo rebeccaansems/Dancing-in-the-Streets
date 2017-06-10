@@ -11,24 +11,31 @@ public class Tutorial : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.Find("Player");
-        firstDancer = this.transform.GetChild(0).GetChild(0).gameObject;
-        secondDancer = this.transform.GetChild(0).GetChild(1).gameObject;
+        if (PlayerPrefs.GetInt("tutorialsOn") == 1)
+        {
+            player = GameObject.Find("Player");
+            firstDancer = this.transform.GetChild(0).GetChild(0).gameObject;
+            secondDancer = this.transform.GetChild(0).GetChild(1).gameObject;
 
-        firstDancer.GetComponent<DancerMovement>().hasTutorial = true;
-        secondDancer.GetComponent<DancerMovement>().hasTutorial = true;
+            firstDancer.GetComponent<DancerMovement>().hasTutorial = true;
+            secondDancer.GetComponent<DancerMovement>().hasTutorial = true;
 
-        firstDancer.GetComponent<DancerMovement>().tutorialOn = true;
-        secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
+            firstDancer.GetComponent<DancerMovement>().tutorialOn = true;
+            secondDancer.GetComponent<DancerMovement>().tutorialOn = false;
 
-        firstDancer.GetComponent<DancerMovement>().spinSpeed = 150;
-        secondDancer.GetComponent<DancerMovement>().spinSpeed = 150;
+            firstDancer.GetComponent<DancerMovement>().spinSpeed = 150;
+            secondDancer.GetComponent<DancerMovement>().spinSpeed = 150;
+        }
+        else
+        {
+            Destroy(GetComponent<Tutorial>());
+        }
     }
 
     void Update()
-    { 
+    {
         //player is circling dancer 1
-        if (player.GetComponent<PlayerMovement>().isCircling&& dancingFirst == false && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
+        if (player.GetComponent<PlayerMovement>().isCircling && dancingFirst == false && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
         {
             firstDancer.GetComponent<DancerMovement>().tutorialOn = false;
 
@@ -61,7 +68,7 @@ public class Tutorial : MonoBehaviour
             dancingFirst = true;
         }
         //player is walking between dancer 1 and dancer 2
-        else if(!player.GetComponent<PlayerMovement>().isConnected && dancingFirst == true && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
+        else if (!player.GetComponent<PlayerMovement>().isConnected && dancingFirst == true && dancingSecond == false && completedFirst == false && completedSecond == false && playerNotCircling)
         {
             dancingFirst = false;
             completedFirst = true;

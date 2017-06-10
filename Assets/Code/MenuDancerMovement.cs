@@ -8,21 +8,27 @@ public class MenuDancerMovement : MonoBehaviour
     public int spinSpeed;
     public bool spinClockwise, isPlayButton;
 
-    private int spriteIndex;
     private bool isVisible;
 
     void Start()
     {
-        transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
-        if (isPlayButton)
+        if (PlayerPrefs.GetInt("menuOn") == 2)
         {
-            spinSpeed = 50;
+            transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
+            if (isPlayButton)
+            {
+                spinSpeed = 50;
+            }
+            else
+            {
+                spinSpeed = Random.Range(150, 400);
+            }
+            spinClockwise = Random.Range(0, 2) == 0;
         }
         else
         {
-            spinSpeed = Random.Range(150, 400);
+            Destroy(GetComponent<MenuDancerMovement>());
         }
-        spinClockwise = Random.Range(0, 2) == 0;
     }
 
     void Update()

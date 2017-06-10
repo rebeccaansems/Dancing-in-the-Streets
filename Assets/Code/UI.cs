@@ -47,6 +47,7 @@ public class UI : MonoBehaviour
 
     public void PressedRestartButton()
     {
+        PlayerPrefs.SetInt("menuOn", 0);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -87,7 +88,7 @@ public class UI : MonoBehaviour
     public void PlayerDied()
     {
         Time.timeScale = 0;
-        if(gameOverCanvas != null)
+        if (gameOverCanvas != null)
         {
             gameOverCanvas.enabled = true;
             pauseCanvas.enabled = false;
