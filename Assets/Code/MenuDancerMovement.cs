@@ -14,20 +14,16 @@ public class MenuDancerMovement : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("menuOn") || PlayerPrefs.GetInt("menuOn") == 1)
         {
-            transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
-            if (isPlayButton)
+            if (!isPlayButton)
             {
-                spinSpeed = 50;
-            }
-            else
-            {
+                transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
                 spinSpeed = Random.Range(150, 400);
+                spinClockwise = Random.Range(0, 2) == 0;
             }
-            spinClockwise = Random.Range(0, 2) == 0;
         }
         else
         {
-            Destroy(GetComponent<MenuDancerMovement>());
+            Destroy(this.gameObject);
         }
     }
 
@@ -37,8 +33,11 @@ public class MenuDancerMovement : MonoBehaviour
         {
             transform.Rotate(spinClockwise ? Vector3.back : Vector3.forward, spinSpeed * Time.deltaTime);
         }
+    }
 
-        if (isPlayButton && Input.GetMouseButtonDown(0) && !mainMenu.cameraCanMove)
+    public void PlayButtonPressed()
+    {
+        if (!mainMenu.cameraCanMove)
         {
             mainMenu.cameraCanMove = true;
         }

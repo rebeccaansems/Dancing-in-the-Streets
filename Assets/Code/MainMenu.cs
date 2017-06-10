@@ -27,6 +27,7 @@ public class MainMenu : MonoBehaviour
             wallSpawner.SetActive(true);
             mainCamera.SetActive(true);
             UIheader.SetActive(true);
+            Destroy(this.gameObject);
         }
     }
 
