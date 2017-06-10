@@ -101,12 +101,12 @@ public class UI : MonoBehaviour
 
     public void ChangeMusicVolume(float volume)
     {
-        Debug.Log(volume);
+        Audio.musicVolume = volume;
     }
 
     public void ChangeSFXVolume(float volume)
     {
-        Debug.Log(volume);
+        Audio.sfxVolume = volume;
     }
 
     public void RateGameButton()

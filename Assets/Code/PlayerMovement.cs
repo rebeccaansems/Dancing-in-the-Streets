@@ -58,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
                 int difAngles = (int)(this.transform.rotation.eulerAngles.z - currentDancer.transform.rotation.eulerAngles.z) + 90;
                 if ((difAngles >= 77 && difAngles <= 103) || (difAngles >= -283 && difAngles <= -257))
                 {
+                    GetComponent<Audio>().PlaySuccessAudio();
                     currentDancer.GetComponent<DancerMovement>().ExtendArms();
                     GetComponent<SpriteRenderer>().sprite = dancingMan;
                     isConnected = true;

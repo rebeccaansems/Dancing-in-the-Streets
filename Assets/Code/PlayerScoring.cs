@@ -76,6 +76,7 @@ public class PlayerScoring : MonoBehaviour
         score -= 10;
         this.GetComponent<PlayerScoring>().pMan.dancerLocation = this.transform.position;
         pMan.SpawnPoint(-10);
+        GetComponent<Audio>().PlayNegativeAudio();
 
         if (score < 0)
         {
