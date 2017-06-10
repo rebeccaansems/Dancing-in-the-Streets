@@ -34,12 +34,13 @@ public class AnalyticsManager : MonoBehaviour
 
     void OnApplicationQuit()
     {
+        PlayerPrefs.SetInt("menuOn", 1);
+
         PlayerPrefs.SetInt("TotalNumAdsWatched", totalNumAdsWatched);
         PlayerPrefs.SetInt("TotalNumCheckLeaderboard", totalNumCheckLeaderboard);
         PlayerPrefs.SetInt("TotalNumFacebookShares", totalNumFacebookShares);
         PlayerPrefs.SetInt("TotalNumGames", totalNumGames);
         PlayerPrefs.SetInt("TotalNumSessions", totalNumSessions);
-        
 
         SendGeneralEvent("QuitGame");
         SendGameplayEvent("QuitGame", -1);
