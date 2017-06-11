@@ -11,20 +11,28 @@ public class AudioBackground : MonoBehaviour
 
     void Start()
     {
-        aud = GetComponent<AudioSource>();
+        GameObject[] music = GameObject.FindGameObjectsWithTag("Music");
+        if(music.Length > 1)
+        {
+            Destroy(music[1]);
+        }
 
         DontDestroyOnLoad(transform.gameObject);
-        aud.playOnAwake = true;
-        aud.loop = true;
-        aud.clip = backgroundAudio;
-        aud.volume = Audio.musicVolume;
-        aud.Play();
-        currVolume = Audio.musicVolume;
+        aud = GetComponent<AudioSource>();
+        if (!aud.isPlaying)
+        {
+            aud.playOnAwake = true;
+            aud.loop = true;
+            aud.clip = backgroundAudio;
+            aud.volume = Audio.musicVolume;
+            aud.Play();
+            currVolume = Audio.musicVolume;
+        }
     }
 
     public void Update()
     {
-        if(currVolume != Audio.musicVolume)
+        if (currVolume != Audio.musicVolume)
         {
             aud.volume = Audio.musicVolume;
             currVolume = Audio.musicVolume;
