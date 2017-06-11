@@ -5,14 +5,14 @@ using UnityEngine;
 public class Audio : MonoBehaviour
 {
     public static float musicVolume, sfxVolume;
-    
+
     public AudioClip[] successAudioClips, negativeAudioClips;
     public AudioClip buttonClick;
 
     AudioSource aud;
     int prevAudS = 0, prevAudF = 0;
 
-    public void Start()
+    private void Awake()
     {
         aud = GetComponent<AudioSource>();
     }

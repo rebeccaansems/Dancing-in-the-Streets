@@ -9,16 +9,17 @@ public class AudioBackground : MonoBehaviour
     private AudioSource aud;
     private float currVolume;
 
-    void Awake()
+    void Start()
     {
         aud = GetComponent<AudioSource>();
-        currVolume = Audio.musicVolume;
 
         DontDestroyOnLoad(transform.gameObject);
         aud.playOnAwake = true;
         aud.loop = true;
         aud.clip = backgroundAudio;
+        aud.volume = Audio.musicVolume;
         aud.Play();
+        currVolume = Audio.musicVolume;
     }
 
     public void Update()

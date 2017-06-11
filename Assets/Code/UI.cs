@@ -26,6 +26,8 @@ public class UI : MonoBehaviour
 
         musicSlider.value = PlayerPrefs.HasKey("musicVolume") ? PlayerPrefs.GetFloat("musicVolume") : 0.5f;
         sfxSlider.value = PlayerPrefs.HasKey("sfxVolume") ? PlayerPrefs.GetFloat("sfxVolume") : 0.5f;
+        Audio.musicVolume = musicSlider.value;
+        Audio.sfxVolume = sfxSlider.value;
 
         isUIOn = pauseCanvas.enabled;
         Time.timeScale = 1;
