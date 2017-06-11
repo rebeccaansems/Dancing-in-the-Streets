@@ -18,7 +18,6 @@ public class UI : MonoBehaviour
 
     private void Start()
     {
-        PlayerPrefs.DeleteAll();
         pauseCanvas.enabled = false;
         highScoresCanvas.enabled = false;
         gameOverCanvas.enabled = false;
