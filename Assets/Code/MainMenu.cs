@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject mainCamera, dancerSpawner, groundSpawner, wallSpawner, menuItems, UIheader;
+    public GameObject mainCamera, dancerSpawner, groundSpawner, wallSpawner, menuItems, UIheader, player;
 
     public bool cameraCanMove = false;
 
@@ -49,6 +49,11 @@ public class MainMenu : MonoBehaviour
                 UI.isUIOn = false;
 
                 Destroy(this.gameObject);
+            }
+
+            if ((int)transform.position.y == mainCamera.transform.position.y - 2)
+            {
+                player.GetComponent<PlayerMovement>().WalkIntoMainScreen();
             }
 
             if ((int)transform.position.y == mainCamera.transform.position.y - 10)

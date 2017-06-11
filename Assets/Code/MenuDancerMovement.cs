@@ -7,11 +7,13 @@ public class MenuDancerMovement : MonoBehaviour
     public MainMenu mainMenu;
     public int spinSpeed;
     public bool spinClockwise, isPlayButton;
+    public GameObject player;
 
     private bool isVisible;
 
     void Start()
     {
+        PlayerPrefs.GetInt("menuOn");
         if (!PlayerPrefs.HasKey("menuOn") || PlayerPrefs.GetInt("menuOn") == 1)
         {
             if (!isPlayButton)
@@ -19,6 +21,11 @@ public class MenuDancerMovement : MonoBehaviour
                 transform.localRotation = new Quaternion(0, 0, Random.Range(0, 359), 0);
                 spinSpeed = Random.Range(150, 400);
                 spinClockwise = Random.Range(0, 2) == 0;
+            }
+            else
+            {
+                player.transform.position = new Vector3(-3f, -4f, 0);
+                player.transform.rotation = Quaternion.Euler(0f, 0f,-90);
             }
         }
         else
