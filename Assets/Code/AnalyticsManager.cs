@@ -42,6 +42,9 @@ public class AnalyticsManager : MonoBehaviour
         PlayerPrefs.SetInt("TotalNumGames", totalNumGames);
         PlayerPrefs.SetInt("TotalNumSessions", totalNumSessions);
 
+        PlayerPrefs.SetFloat("musicVolume", Audio.musicVolume);
+        PlayerPrefs.SetFloat("sfxVolume", Audio.sfxVolume);
+
         SendGeneralEvent("QuitGame");
         SendGameplayEvent("QuitGame", -1);
     }

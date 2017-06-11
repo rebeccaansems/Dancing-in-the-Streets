@@ -19,6 +19,7 @@ public class Audio : MonoBehaviour
 
     public void PlaySuccessAudio()
     {
+        aud.volume = sfxVolume;
         int currAud = Random.Range(0, successAudioClips.Length);
         if (prevAudS != currAud)
         {
@@ -35,6 +36,7 @@ public class Audio : MonoBehaviour
 
     public void PlayNegativeAudio()
     {
+        aud.volume = sfxVolume;
         int currAud = Random.Range(0, negativeAudioClips.Length);
         if (prevAudS != currAud)
         {
@@ -51,6 +53,7 @@ public class Audio : MonoBehaviour
 
     public void PlayButtonClick()
     {
+        aud.volume = sfxVolume;
         aud.clip = buttonClick;
         aud.Play();
     }

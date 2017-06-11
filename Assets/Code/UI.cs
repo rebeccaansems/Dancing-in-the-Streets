@@ -9,6 +9,7 @@ public class UI : MonoBehaviour
     [Tooltip("Pause: 0, Header: 1, HighScore: 2, GameOver: 3")]
     public Canvas pauseCanvas, headerCanvas, highScoresCanvas, gameOverCanvas, otherApps;
     public Button pauseButton;
+    public Slider musicSlider, sfxSlider;
     public GameObject player;
 
     public static bool isUIOn = false;
@@ -17,11 +18,15 @@ public class UI : MonoBehaviour
 
     private void Start()
     {
+        PlayerPrefs.DeleteAll();
         pauseCanvas.enabled = false;
         highScoresCanvas.enabled = false;
         gameOverCanvas.enabled = false;
         otherApps.enabled = false;
         headerCanvas.enabled = true;
+
+        musicSlider.value = PlayerPrefs.HasKey("musicVolume") ? PlayerPrefs.GetFloat("musicVolume") : 0.5f;
+        sfxSlider.value = PlayerPrefs.HasKey("sfxVolume") ? PlayerPrefs.GetFloat("sfxVolume") : 0.5f;
 
         isUIOn = pauseCanvas.enabled;
         Time.timeScale = 1;
