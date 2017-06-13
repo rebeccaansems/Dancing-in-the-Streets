@@ -73,16 +73,19 @@ public class PlayerScoring : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        score -= 10;
-        this.GetComponent<PlayerScoring>().pMan.dancerLocation = this.transform.position;
-        pMan.SpawnPoint(-10);
-        GetComponent<Audio>().PlayNegativeAudio();
-
-        if (score < 0)
+        if (GetComponent<PlayerMovement>().dancerGameObjectStack.Peek() != collision.gameObject)
         {
-            score = 0;
+            score -= 10;
+            this.GetComponent<PlayerScoring>().pMan.dancerLocation = this.transform.position;
+            pMan.SpawnPoint(-10);
+            GetComponent<Audio>().PlayNegativeAudio();
+
+            if (score < 0)
+            {
+                score = 0;
+            }
+            pointsPerScore = 1;
         }
-        pointsPerScore = 1;
     }
 
     void OnBecameInvisible()
