@@ -36,7 +36,7 @@ public class MainMenu : MonoBehaviour
         if (cameraCanMove)
         {
             UI.isUIOn = true;
-            float step = 2 * Time.deltaTime;
+            float step = 3 * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, mainCamera.transform.position, step);
 
             if (transform.position == mainCamera.transform.position)
@@ -51,7 +51,7 @@ public class MainMenu : MonoBehaviour
                 Destroy(this.gameObject);
             }
 
-            if ((int)transform.position.y == mainCamera.transform.position.y - 2)
+            if ((int)transform.position.y == mainCamera.transform.position.y - 4)
             {
                 player.GetComponent<PlayerMovement>().WalkIntoMainScreen();
             }
